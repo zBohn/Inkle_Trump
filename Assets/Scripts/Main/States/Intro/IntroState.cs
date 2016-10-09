@@ -45,26 +45,23 @@ public class IntroState : MainState {
 		yield return new WaitForSeconds(2f);
 		inklePresentsText.gameObject.SetActive(false);
 
-		yield return new WaitForSeconds(2);
-
-
+		yield return new WaitForSeconds(1);
 
 		theInterceptText.gameObject.SetActive(true);
 		while(theInterceptText.typedText.typing) {
 			yield return null;
 		}
-		AudioClipDatabase.Instance.PlayHorrorSting();
-		yield return new WaitForSeconds(2.5f);
-		theInterceptText.gameObject.SetActive(false);
+        yield return new WaitForSeconds(2);
+        theInterceptText.gameObject.SetActive(false);
 
-		yield return new WaitForSeconds(0.5f);
+		yield return new WaitForSeconds(0.25f);
 		yield return StartCoroutine(DoShortIntro());
 	}
 
 	// Just fade in from black
 	private IEnumerator DoShortIntro () {
 		yield return new WaitForSeconds(0.5f);
-		AudioClipDatabase.Instance.PlayAttachingPaperSound();
+		AudioClipDatabase.Instance.PlayPart7END();
 		yield return new WaitForSeconds(1);
 
 		FloatTween opacityTween = new FloatTween();

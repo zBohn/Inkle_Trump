@@ -70,9 +70,19 @@ public class ChoiceView : StoryElementView {
 		choiceGroupView.MakeChoice (choice);
 	}
 
-	public void OnClick () {
+	public void OnClick ()
+    {
 		MakeChoice();
-	}
+
+        Debug.Log(choice.text);
+
+        string choiceText = choice.text;
+
+        if (choiceText.Contains(""))
+            AudioClipDatabase.Instance.PlayDialogChoice();
+        else
+            AudioClipDatabase.Instance.PlayActionChoice();
+     }
 
 	public IEnumerator FadeOut (float fadeTime) {
 		StopCoroutine("FadeIn");

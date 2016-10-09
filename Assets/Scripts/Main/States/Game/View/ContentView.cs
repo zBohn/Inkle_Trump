@@ -38,7 +38,7 @@ public class ContentView : StoryElementView {
 		textTyperSettings.customPostTypePause.Add(new TypedText.CustomStringTimeDelay(".", new TypedText.RandomTimeDelay(0.3f,0.4f)));
 		textTyperSettings.customPostTypePause.Add(new TypedText.CustomStringTimeDelay("\n", new TypedText.RandomTimeDelay(0.5f,0.6f)));
 		if(Main.Instance.gameState.hasMadeAChoice) {
-			textTyperSettings.splitMode = TypedText.TypedTextSettings.SplitMode.Word;
+			textTyperSettings.splitMode = TypedText.TypedTextSettings.SplitMode.Character;
 			textTyperSettings.defaultTypeDelay = new TypedText.RandomTimeDelay(0.04f,0.065f);
 		} else {
 			textTyperSettings.splitMode = TypedText.TypedTextSettings.SplitMode.Character;

@@ -65,8 +65,12 @@ public class GameState : MainState {
 		}
 	}
 
-	IEnumerator OnAdvanceStory () {
-		if(story.canContinue) {
+	IEnumerator OnAdvanceStory ()
+    {
+        CheckForMusicChange();
+
+        if (story.canContinue)
+        {
 			ChoiceGroupView choiceView = null;
 			ChevronButtonView chevronView = null;
 			while(story.canContinue) {
@@ -93,7 +97,9 @@ public class GameState : MainState {
 				chevronView.Render();
 				yield return new WaitForSeconds(2);
 			}
-		} else {
+		}
+        else
+        {
 			yield return new WaitForSeconds(2);
 			CreateChevronView();
 		}
@@ -116,6 +122,11 @@ public class GameState : MainState {
 	public void ClickChevronButton () {
 		Complete();
 	}
+
+    public void CheckForMusicChange()
+    {
+
+    }
 
 	ContentView CreateContentView (string content) {
 		ContentView contentView = Instantiate(contentViewPrefab);
