@@ -69,7 +69,7 @@ What does a governmental bankruptcy even look like, you wonder.
 
 A voice shatters this curious daydream.
 
-Hi, Mr. Trump! Me.
+Hi, Mr. Trump! Hey -- over here. It's me.
 
     *"Who said that?"
 
@@ -125,7 +125,7 @@ You're right, Mr. Trump. Trains ARE for losers.
 
 I've got troubling news, Mr. Trump! Intel reports claim that ISIS has already smuggled a bomb inside Disney World! We need you to go undercover, find the terrorists, and stop them.
 
-Please take this, sir. This is a 30-page brief detailing ISIS's plot, their logistical support, known actors, and--
+Please take this, sir. It's a 30-page brief detailing ISIS's plot, their logistical support, known actors, and--
 
    	 * ["Gimme the one-page."]
 
@@ -192,8 +192,9 @@ Orlando.
 ->1D
 
 ===1D===
+You step out into the oppressive, humid air. The odor of oranges and old people wafts towards you. A black Lincoln MKZ is waiting for you. The door opens, and you step inside.
 
-Okay, Mr. Trump. Let's get started. First thing's first. We need to pick your cover mascot.
+Okay, Mr. Trump. We're on our way to Disney World! Before we get there, we need to pick your cover mascot.
 
 * ["Cover mascot?"]
 
@@ -873,7 +874,7 @@ Your cheek stings.
 	*[Proclaim heroism]
 "My brain, maybe the best brain, will think of a way out of here," you say. "And then you're gonna pay, Narrator Guy. No one ties up Donald Trump unless they’re wearing six inch heels and charge by the hour, okay?"
 
--  Donald, Donald, Donald. Tisk, tisk, Donald. Tisk, tisk. You think you're the smartest man in the world, but you've played right into my hands. It’s been me all along: Narrator Guy! The greatest ISIS operative who ever lived!
+-  Trump, Trump, Trump. Tisk, tisk, Trump. Tisk, tisk. You think you're the smartest man in the world, but you've played right into my hands. It’s been me all along: Narrator Guy! The greatest ISIS operative who ever lived!
 
 And I have some more bad news for you. The guy I just killed? An undercover FBI agent sent to catch me. The thing is, your fingerprints are on the gun, as well as the bomb I have here in my Hunny Pot. And the police will be here soon enough.
 ->5SmallRoomD1
@@ -885,7 +886,7 @@ Oh Donald, I knew I could count on your relentless bravado and complete lack of 
 SMACK!
 	*"Shut up."
 SMACK!
-- Oh, that look in your eyes, Donald. Like a clueless frog sitting in a pot of water. You got something to say, Trump? Never seen you this quiet before. You must be disappointed in yourself.
+- Oh, that look in your eyes, Trump. Like a clueless frog sitting in a pot of water. You got something to say, Trump? Never seen you this quiet before. You must be disappointed in yourself.
 
 ->5betrayalquestions
 
@@ -958,7 +959,7 @@ But I already have, Mr. Trump. You've fallen right into my trap. Soon, everyone 
 
 You watch as Narrator Guy sheds his Dwarf costume and hops into a Winnie the Pooh outfit. He grabs a duffle bag decorated as a pot of "Hunny."
 
-Just sit tight, Donald. One of my associates will be along shortly to strap an additional explosive to your suit, so you don't feel left out. And let’s just say that when the parade comes around to Mainstreet, USA, as always, Trump, you'll be the main event.
+Just sit tight, Trump. One of my associates will be along shortly to strap an additional explosive to your suit, so you don't feel left out. And let’s just say that when the parade comes around to Mainstreet, USA, as always, Trump, you'll be the main event.
 
 It's my story now. Narrate THIS!
 
@@ -976,8 +977,9 @@ Trump.
 
 - "I might be in trouble..."
 
-	*"Help!"
 Donald.
+	*"Help!"
+
 	*"Is anyone there?"
 - Donald, can you hear me?"
 
@@ -1690,6 +1692,8 @@ The sun falters.
     *"...Wait, what's happening?"
     *"Something's...wrong..."
 
+- I don't know, Donald! The world's fading!
+
 ->7It_All_Fades
 
 ===7It_All_Fades===
@@ -1753,11 +1757,19 @@ Share this story here.
 
 And remember -- we only have one reality that we know of, so please vote on November 8th.
 
-	*[About the Authors]
+	*[About the Creators]
 -> Authors
 
-	*[Play Again]
+    *[Brief Authorial Request]
+    
+Hey all -- Danny here, writer of Donald Trump Saves the World. I started writing this game to a) learn Ink b) make my dad laugh. Let's talk about the second one.
+
+
+    
+THE END
+
 -> 1A1
+
 
 
 //endings//

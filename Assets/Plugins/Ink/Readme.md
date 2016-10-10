@@ -4,7 +4,7 @@ This Unity package allows you to integrate inkle's [ink narrative scripting lang
 
 Features:
 
- - **Running ink in game**: Allows usage of JSON-compiled ink files in Unity via the included `ink-engine.dll` (and Json.Net dependency).
+ - **Running ink in game**: Allows usage of JSON-compiled ink files in Unity via the included `InkRuntime` source files (and Json.Net dependency in DLLs).
 
  - **Auto Compilation**: Instantly creates and updates a JSON story file when a `.ink` is updated.
  	
@@ -18,19 +18,11 @@ Features:
 * Download the [latest Unity package release](https://github.com/inkle/ink-unity-integration/releases), and add to your Unity project.
 * Select one of the sample `.ink` stories included in the package. In Unity's Inspector window, you should see a *Play* button. Click it to open the **ink player** window, useful for playing (previewing) ink stories.
 
-For more information on **ink**, see [the documentation in the main ink repo](https://github.com/inkle/ink). For convenience, the package also creates an (**Ink > Help**) menu option.
-
-## Customisation
-
-This package is structured modularly. The folders correllating to the features described below can all be safely deleted if their functionality is not required.
-
-The only files required to play ink in your game is ink-engine and Newtonsoft.Json in the DLL folder.
-
-The inklecate DLLs used to compile ink are quite large files. You may safely delete the DLLs not corresponding to your current OS, or both of them if not using the compiler.
+For more information on **ink**, see [the documentation in the main ink repo](https://github.com/inkle/ink). For convenience, the package also creates (**Help > Ink**) menu options.
 
 ## Using ink in game your game. 
 
-The **ink player** is the core feature of this package; the minimal requirements to actually run a compiled JSON story file are the `ink-engine.dll` and `Newtonsoft.Json.dll` libraries.
+The **ink player** is the core feature of this package; the minimal requirements to actually run a compiled JSON story file are files in the `InkRuntime` folder and `Newtonsoft.Json.dll` library.
 
 ## Ink Player
 
@@ -50,9 +42,9 @@ Ink files must be compiled to JSON before they can be used in-game.
 	
 This package provides tools to automate this process when a .ink file is edited. 
 
-**Disabling auto-compilation**: You might want to have manual control over ink compilation. If this is the case, you can safely delete the InkPostProcessor class.
+**Disabling auto-compilation**: This option exists via **Edit > Project Settings > Ink**
 
-**Manual compilation**: If you have disabled auto-compilation, you can manually compile ink using the **Ink > Compile All** menu item, via the inspector of an ink file, or using the functions in the InkCompiler class.
+**Manual compilation**: If you have disabled auto-compilation, you can manually compile ink via the inspector of an ink file, using the functions in the InkCompiler class, or rebuild all the ink files using the **Assets > Recompile Ink** menu item (this can be a bit slow for larger projects)
 
 ## Inspector Tools
 
@@ -62,9 +54,18 @@ This package also replaces the icon for ink files to make them easier to spot, a
 
 ## Updating Ink manually
 
-The ink git repo is updated far more frequently than this asset store package. 
+The ink git repo is updated far more frequently than the asset store package. 
 
 If you're interested in keeping up-to-date with cutting edge features, you can download the [latest releases from the GitHub repo](https://github.com/inkle/ink/releases).
+
+
+## Sublime Text Syntax Highlighting
+
+The Sublime3Syntax zip file in the Extras folder provides syntax highlighting for ink files in Sublime Text 3. Installation details can be found in the readme inside the zip file.
+
+## Customisation
+
+The inklecate DLLs used to compile ink are quite large files. You may safely delete the DLLs not corresponding to your current OS, or both of them if not using the compiler.
 
 ## FAQ
 
@@ -78,3 +79,9 @@ If you're interested in keeping up-to-date with cutting edge features, you can d
         Unhandled Exception: System.TypeLoadException: Could not load type 'Newtonsoft.Json.Linq.JContainer' from assembly 'Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed'.`
  	
  	You need to change your API compatibility level from .NET 2.0 subset to .NET 2.0.
+
+* Other errors?
+	
+	*First off, recompile the ink library using **Assets > Recompile Ink**.
+
+	If that doesn't work, [report an issue via github](https://github.com/inkle/ink/issues) or [ask us and the comminity for help via hipchat](https://www.hipchat.com/gkq2pSLqU)

@@ -1,10 +1,18 @@
 fileFormatVersion: 2
 guid: 57f5e4ebc399f40dca22d59b53b1b174
-timeCreated: 1459515908
-licenseType: Pro
+timeCreated: 1476108994
+licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - DialogChoice: {fileID: 8300000, guid: 6cc7e1bb0a47a474886eb60d80ce1311, type: 3}
+  - ActionChoice: {fileID: 8300000, guid: c5031c15c2afb4c879e3fc451b3cb215, type: 3}
+  - PlaneTakeoff: {fileID: 8300000, guid: efac0b0aaa05e496c92810b96e8693d3, type: 3}
+  - Part_1A: {fileID: 8300000, guid: fbe87731225b745228481e74956266e0, type: 3}
+  - Part_2D: {fileID: 8300000, guid: 01c8f301548831f46bf7ceae2ba4c47a, type: 3}
+  - Part_6: {instanceID: 0}
+  - Part_7: {fileID: 8300000, guid: a3284ad01a0037240ad86bd65d57db59, type: 3}
+  - Part_7_END: {fileID: 8300000, guid: fcf57504e43e7954ead3cc352c90a890, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
