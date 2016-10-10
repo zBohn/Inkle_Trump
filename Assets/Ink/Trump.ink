@@ -44,7 +44,7 @@ You are Donald Trump.
 
 Congratulations.
 
-Don't touch the hairr.
+Don't touch the hair.
 
     	*[Touch the Hair]
     "Mmm," you say. "Love massaging my big brain. But no one does it like Melania."
@@ -1312,8 +1312,8 @@ But you cannot resist a Twitter war. It is your kryptonite.
 
 ===7Fisticuffs===
 
-    {You swing mightily.|{~Missed!|Nothing but air!|Weak sauce!|He's too fast. -> 7Terrorist_Guy_Attacks}}
-    Terrorist Guy {dodges|laughs|moons Trump|escapes narrowly|hides behind children}. <>
+    {You charge!|{~Missed!|Nothing but air!|Weak sauce!|He's too fast. -> 7Terrorist_Guy_Attacks}}
+    Terrorist Guy {dodges|laughs|moons you|escapes narrowly|hides behind  fat children}. <>
     {!He slaps you. "You're weak, Trump!"| He smacks you. "That the best you can do, Trump?"| He pummels you. "You got nothing, Trump!" | He knocks you down.}
    	*  [Leftist hook]     -> 7Fisticuffs
     	*  [Trump Steak Hook] -> 7Fisticuffs
@@ -1404,7 +1404,7 @@ For the first time since you were a child, you see yourself as many others see y
 *"-- Jeez, Super Lego. I thought you were on my side!"
 *"-- Uh, lay off, Super Lego! Who's side are you on, anyway?"
 
-- I'm sorry, Donald. The magic mirror's got a hold on me, too! I've been such a self-involved id, but I only do it out of insecurity.
+- I'm sorry, Donald. The magic mirror's got a hold on me, too! I've been such a self-involved Super Ego -- Super Lego, as you say -- but I only do it out of insecurity.
 
 But it's too late. You stagger back, bloody, weak. It is too daunting, this image of yourself, this reflection of who you are and how you truly appear to millions of people worldwide.
 
