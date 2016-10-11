@@ -125,7 +125,19 @@ public class GameState : MainState {
 
     public void CheckForMusicChange()
     {
+        Debug.Log("GameState:CheckForMusicChange");
+        List<string> tagList = story.currentTags;
 
+        Debug.Log("story.currentTags Count: " + story.currentTags.Count);
+        Debug.Log("TagList Count: " + tagList.Count);
+
+        if (tagList.Contains("play_airplane_sfx"))
+        {
+            AudioClipDatabase.Instance.PlayPlaneTakeoff();
+            Debug.Log("Airplane Noise!");
+        }
+
+        tagList.ForEach(item => Debug.Log("Item: " + item));
     }
 
 	ContentView CreateContentView (string content) {

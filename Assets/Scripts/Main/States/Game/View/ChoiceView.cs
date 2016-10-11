@@ -78,7 +78,7 @@ public class ChoiceView : StoryElementView {
 
         string choiceText = choice.text;
 
-        if (choiceText.Contains(""))
+        if (choiceText.Contains("\""))
             AudioClipDatabase.Instance.PlayDialogChoice();
         else
             AudioClipDatabase.Instance.PlayActionChoice();

@@ -35,8 +35,10 @@ public class IntroState : MainState {
 	}
 
 	// Type Inkle, type game title, and fade in from black
-	private IEnumerator DoLongIntro () {
-		yield return new WaitForSeconds(2f);
+	private IEnumerator DoLongIntro ()
+    {
+        AudioClipDatabase.Instance.PlayPart7END();
+        yield return new WaitForSeconds(2f);
 
 		inklePresentsText.gameObject.SetActive(true);
 		while(inklePresentsText.typedText.typing) {
@@ -59,11 +61,10 @@ public class IntroState : MainState {
 	}
 
 	// Just fade in from black
-	private IEnumerator DoShortIntro () {
-		yield return new WaitForSeconds(0.5f);
-		AudioClipDatabase.Instance.PlayPart7END();
-		yield return new WaitForSeconds(1);
-
+	private IEnumerator DoShortIntro ()
+    {
+		//yield return new WaitForSeconds(0.5f);
+		//yield return new WaitForSeconds(1);
 		FloatTween opacityTween = new FloatTween();
 		opacityTween.Tween(1, 0, 5);
 		while(opacityTween.tweening) {
