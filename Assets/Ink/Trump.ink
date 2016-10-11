@@ -29,24 +29,21 @@ Donald Trump Saves the World
 ===Authors===
 # Authors play_airplane_sfx
     
-This game was written and designed by Danny Homan (www.dannyhoman.com), with additional writing and design by Connor Thomas Cleary (www.connorthomascleary.com), design/coding by Zach Bohn, and music by Raison Varner.
+This game was written and designed by Danny Homan (www.dannyhoman.com), with additional writing and design by Connor Thomas Cleary (www.connorthomascleary.com), design/coding by Zach Bohn, and music and sound design by Raison Varner (www.soundcloud.com/rvarner).
 
     +[Start the Game]
     -> 1A
 
 ===1A===
+#PlayMusic_1A
 
 At 725 Fifth avenue in midtown Manhattan stands a tower. But not just any tower. A Trump Tower. THE Trump Tower. It is a crisp November morning, a week shy of Thanksgiving, and on the 58th floor the President-elect of the United States of America is busy staring at a newspaper headline.
 
 TRUMP Trumps HRC.
 
-And today, dear reader -- for a few all-too-brief minutes, and by the awesome magic of fiction -- you are that man.
+And today, by the awesome magic of fiction -- you are that man.
 
 You are Donald Trump.
-
-Congratulations.
-
-Don't touch the hair.
 
     	*[Touch the Hair]
     "Mmm," you say. "Love massaging my big brain. But no one does it like Melania."
@@ -58,7 +55,7 @@ Don't touch the hair.
 
 
 ===1A1===
-Your hand rests on your noble brow as your eyes glance around your astounding office, gold glinting in the sun, illuminating the spoils that only a successful career in real estate, the United States Football League, casinos, steaks, being born rich, Trump airline, golf courses, reality TV, being born very rich, and multiple bankruptcies can buy.
+Your hand rests on your noble brow as your eyes glance around your office, the sun illuminating a room absolutely crammed with the spoils of success -- from a career in real estate, the United States Football League, casinos, a steak empire, Trump airline, golf courses, reality TV stardom, and multiple bankruptcies.
 
 But in less than two short months, you will take the oval office. A daunting proposition.
 What does a governmental bankruptcy even look like, you wonder.
@@ -74,7 +71,9 @@ Hi, Mr. Trump! Hey -- over here. It's me.
 
     *"Who said that?"
 
-- Me. I'm your new assistant -- I'm also the guy who will be narrating your undoubtedly heroic tale of greatness making. Wow, it's really an inspiration to be working for you, sir! We're going to Make America Great Again!
+- You whirl around to see me. 
+
+Hi, Mr. Trump. Sorry to startle you! I'm your new assistant -- I'm also the guy who will be narrating your undoubtedly heroic tale of saving the world! Call me Narrator Guy! Wow, it's really an inspiration to be working for you, sir! We're going to Make America Great Again!
 
 * ["Thanks!"]
 "Thanks, Narrator Guy," you say confidently. "But I'm hearing people don't like long intros, so let’s get to my story." 
@@ -85,29 +84,29 @@ Hi, Mr. Trump! Hey -- over here. It's me.
 -> 1B
 
 ===1B===
-I couldn't agree more, Mr. Trump! I'm sorry to disturb you, but the NSA just contacted me with some amazing new intel! There are terrorists plotting to destroy Disney World!
+I couldn't agree more, Mr. Trump! I'm sorry to disturb you, but the NSA just informed me that terrorists are plotting to destroy Disney World!
 	*"That's just terrible."
-	*"That's bad. Real bad."
+	*"That's bad -- real bad."
 
 - Well said, Mr. Trump! I know, the stakes couldn't be higher, but I'm excited to be along for the ride as you take care of your first campaign pledge: Defeating ISIS!
 
-So are you ready?
+So are you ready to finally show us all how you're going to defeat ISIS?
 
 * ["Yeah -- about time."]
-"Yeah, of course," you say. "It's about time. Like I said, I already have a plan for ISIS."
+"Yeah, of course," you say. "It's about time. Luckily for the NSA, I already have a plan."
 -> 1C
 
 *["Absolutely not."]
 "Absolutely not," you say. "No way. If this little story of yours gets out, ISIS will know my foolproof strategy."
 
-But, Mr Trump, as I mentioned -- we've got some troubling intel that ISIS might be planning to destroy one of our national treasures. The jewel of the swampy south. The justification for Florida's very existence.
+But, Mr Trump, as I mentioned -- we've got some troubling intel that ISIS might be planning to destroy one of our national treasures. The jewel of the south. The justification for Florida's very existence.
 
 -> 1B2
 
 ===1B2===
 
 * ["Fine."]
-"Alright, alright. I will personally destroy the biggest terrorist group on the planet -- but only because you asked politely. I don’t like people who ask impolitely. Not nice." 
+"Alright, alright. I will personally destroy the bigliest terrorist group on the planet -- but only because you asked politely. I don’t like people who ask impolitely. They get nothing." 
 -> 1C
 
 ===1C===
@@ -124,13 +123,13 @@ You're right, Mr. Trump. Trains ARE for losers.
 
 ===1C1===
 
-I've got troubling news, Mr. Trump! Intel reports claim that ISIS has already smuggled a bomb inside Disney World! We need you to go undercover, find the terrorists, and stop them.
+Let's get started, Mr. Trump. According to intel, ISIS has smuggled explosives inside Disney World! We need you to go undercover, find the terrorists, and stop them.
 
-Please take this, sir. It's a 30-page brief detailing ISIS's plot, their logistical support, known actors, and--
+Please take this, sir. It's a 30-page brief on ISIS's plot, their logistical support, known actors, and--
 
    	 * ["Gimme the one-page."]
 
-"Thirty pages? I thought you said it was brief," you say. "That's not brief. Give me the gist, chief. Bullet points. I'm a busy, successful man. You want me spending who-knows-how-many minutes reading -- which I like a lot and am very good at, by the way, because I have a great brain, the best brain -- or do you want me to go completely and totally destroy ISIS as I promised?"
+"Thirty pages?" you ask. "That's not brief. Give me the gist, chief. Bullet points. I'm a busy, successful man. You want me spending who-knows-how-many minutes reading -- which I enjoy by the way, fantastic reader, always hav been, just tremendous at reading -- or do you want me to go completely and totally destroy ISIS as I promised?"
 
 Completely and totally destroy ISIS.
 
@@ -139,17 +138,16 @@ Completely and totally destroy ISIS.
 Yes -- yes, of course Mr. Trump. Sir.
 -> 2B2
 
-* "You're fired."
-"You're fired, Narrator Guy. 30 pages? Are you kidding me? I don't have time for this. I'm a busy man."
+* ["30 pages? You're fired."]
+"You're fired, Narrator Guy," you say. "30 pages? Are you kidding me? I don't have time for this. I'm a busy man."
 
 But Mr. Trump -- if you fire me, who will tell your story?
 
 "Just get out of here, you..."
 
-	**"...low-energy loser."
-	**"...all talk, no action writer."
-	**"...weak-sauce narrator."’
-	**”...ineffective authorial gimmick.”
+	**"...low-energy, low-impact loser."
+	**"...all-talk, no-action word scribbler."
+	**”...ineffective author gimmick.”
 
 Mr. Trump...I...
 
@@ -173,7 +171,7 @@ Your private jet is ready. Let's go to Florida!
 	->2D
 
 	*[Assert Heroism]
-"Ya know, before we start this adventure, I'd just like to say -- America, you're welcome. I'm gonna stop this terrorist and then get me one of those great big turkey legs! -- Note to self. Trump Turkey Legs. Big, meaty, delicious, good for the whole family."
+"Before we start this adventure, I'd just like to say -- America, you're welcome. I'm gonna stop this terrorist and then celebrate with one of those great big turkey legs! Note to self. Trump Turkey Legs. The biggest legs in turkey. Meaty, delicious, good for the whole family."
 
 You pose heroically.
 
@@ -185,8 +183,7 @@ You pose heroically.
 
 ===2D===
 # play_airplane_sfx
-During the flight you're restless. ISIS in Disney World. This is the greatest test you've ever faced. Your bold claims about stopping the horrific terrorist group will be put to the test -- er, I mean, proven true!
-Every decision you make could mean the difference between making America great again, or losing the jewel of the United States. 
+During the flight you're restless. ISIS in Disney World. This is the greatest test you've ever faced. Your bold claims about stopping ISIS will be put to the test. Every decision you make could mean the difference between making America great again, or losing the jewel of the United States. 
 
 Orlando.
 
@@ -194,7 +191,8 @@ Orlando.
 ->1D
 
 ===1D===
-You step out into the oppressive, humid air. The odor of oranges and old people wafts towards you. A black Lincoln MKZ is waiting for you. The door opens, and you step inside.
+You step out of your private jet and into the oppressive, humid Florida air. The odor of oranges and old people  whiling away their final years wafts towards you.
+A black Lincoln MKZ is waiting for you. The door opens, and you step inside.
 
 Okay, Mr. Trump. We're on our way to Disney World! Before we get there, we need to pick your cover mascot.
 
@@ -202,14 +200,14 @@ Okay, Mr. Trump. We're on our way to Disney World! Before we get there, we need 
 
 "Cover mascot?" you ask, uncomfortable that there's something you don't know. "What the heck are you talking about, Narrator Guy?"
 
-Sir, you're the most popular man in America. And...your hair is...distinct and immediately recognizable. You can't go into Disney World without a disguise.
+Mr. Trump, you're the most popular man in America! And...your hair is...distinct. You can't go into Disney World without a disguise.
 
 "Makes sense. Good work, Narrator Guy." 
 ->1E
  
 * ["Got it."] 
 
-"Got it," you say confidently. "Cover mascot. I got it. Let's do this." 
+"Got it," you say confidently. "Cover mascot. Let's do this." 
 
 ...you know what a cover mascot is, Mr. Trump?
 
@@ -217,7 +215,7 @@ Sir, you're the most popular man in America. And...your hair is...distinct and i
 
 You mean anonymity, sir?
 
-"That's what I said. Wow. Hear much? You should get your ears checked. I think you might have bad ears. Two of em. I don’t know, I’m just saying what I’ve heard. A lot of people are saying you have bad ears." 
+"That's what I said. You should get your ears checked." 
 ->1E
 
 ===1E===
@@ -232,19 +230,23 @@ Absolutely, sir!
 
 		
 	*["Goofy."] 
-		"I was born to be Goofy," you say. "He's a good dog -- that's what everyone's saying. You agree, right Narrator Guy?
+		"I was born to be Goofy," you say. "He's a good dog -- that's what everyone's saying. You agree, right Narrator Guy?"
 
 Absolutely, sir! 
     ~chose_goofy = true
 ->2A
 
 ===2A===
-You put the mascot suit on. It smells like the sweat of failed actors and sacrificed dignity. But you, Donald Trump, are no stranger to either.
+You put the mascot suit on. It smells like the tears of countless actors and sacrificed dignity. But you, Donald Trump, are no stranger to either.
 
-How does it fit, Mr. Trump?
+"What'd you say about me, Narrator Guy?"
+
+Oh -- just setting the scene, Mr. Trump. Trust me, it'll be good for ratings.
+
+So...how does your costume fit, Mr. Trump?
 
 	*["It's tight!"]
-"Uh -- pretty tight in the old cabbage patch," you say. "Donald Jr. needs some breathing room, ya know? Little Marco didn’t know what he was talking about. Loser." 
+"Uh -- pretty tight in the old cabbage patch," you say. "Donald Jr. needs some breathing room, ya know?" 
 ->2B
 
 	*["Not bad."]
@@ -270,7 +272,7 @@ One sec...one sec...
 
 TADA!
 
-Before you is a small, ugly man-child wearing a floppy hat and a red tunic. 
+You see me, Narrator Guy, before you, wearing a floppy hat and tunic. 
 
 	*"Who the heck are you?"
 	I'm Grumpy! The dwarf. From Snow White and the Seven Dwarves!
@@ -278,9 +280,7 @@ Before you is a small, ugly man-child wearing a floppy hat and a red tunic.
 	->2D1
 	
 	*"You look good, Narrator Guy!"
-	Thanks! I wanted a mascot with a hat, and red's my favorite color!
-	"Listen, Narrator Guy. I’m not saying this to be mean. I just think you should know. Nobody cares about you or your motivations. I'm the star of the show."
-	Oh, well then. Thanks for… letting me know.
+	Thanks! I didn't want to upstage you, so I thought this outfit was appropriate.
 
 - Alright, Mr. Trump. We're all set for a big adventure! 
 
@@ -290,8 +290,8 @@ Before you is a small, ugly man-child wearing a floppy hat and a red tunic.
 
 ===2D1===
 
-Disney World Security takes you through a back entrance and down into a series of tunnels known as the Underground. Service personnel, entertainers, and mascots walk briskly or ride in golf carts down the myriad of always.
-The Underground also houses the Digital Animation Control System, Mr. Trump, which monitors the entire park. This is the nerve-center of the greatest place on earth -- sorry, second greatest, sir. Right after Trump Tower of course.
+Disney World Security takes you through a back entrance and down into a series of tunnels known as the Underground. Service personnel, entertainers, and mascots walk briskly by while mascot-laden golf carts zip down the myriad of hallways.
+This is the nerve-center of the greatest place on earth -- sorry, second greatest, sir. Right after Trump Tower of course.
 
     *"And don't you forget it."
     
@@ -300,11 +300,11 @@ The Underground also houses the Digital Animation Control System, Mr. Trump, whi
 ===2D2===
 You hop on a golf cart and speed through sparsely-lit hallways, past throngs of employees and performers, until finally you reach the exit. Your eyes adjust to the light. A horse and carriage passes as you emerge from the Underground.
 
-Main Street U.S.A. is the America you remember from your childhood, a picture of the 1950s. Clean streets, colorful buildings, trolleys, as well as soda shops and street performers. In the distance, the blue spires of Cinderella's castle rise to meet a picture-perfect blue sky. 
+Main Street U.S.A. is the America you remember from your childhood, a picture of the 1950s. Clean streets, colorful buildings, trolleys, and soda shops adorn the streets while street performers dazzle tourists and mascots pose for photos with children. In the distance, the blue spires of Cinderella's castle rise to meet a perfect blue sky. 
 
 *"Not a bad looking castle. That Snow White was loaded!"
 Actually, it's Cinderella's Castle, Mr. Trump.
-"Pah -- Cinderella. The maid? Let me tell you, I would never invite a maid to a palace. Also, glass slippers? Very impractical. I wouldn't let some broad come into my palace with glass slippers. Lawsuit waiting to happen!" 
+"The maid? Let me tell you, I would never invite a maid to a palace. Also, glass slippers? Very impractical. Lawsuit waiting to happen!" 
 **[Continue]
 ->2E
 
@@ -314,7 +314,6 @@ Yes, sir. Uh, horses do that, Mr. Trump.
 How… how else would they live, Mr. Trump? Pooping is part of life.
 
 "I don't poop," you affirm. "Never have. Colostomy bag all the way. Efficient. Very convenient."
-Okay. Moving right along from that.
 
 - You stare out at the busy street, but something feels off...
 
@@ -329,8 +328,8 @@ But…but why?
 “Look around. What do you see?”
 Nothing, really, sir.
 "That’s right. Nothing. Where’s my parade?."
-Mr. Trump, you're undercover. We can't have a parade for you. I'm sure you understand." 
-	*"Just a little one. With a few beauty queens." 
+Mr. Trump, you're undercover. We can't have a parade for you. It'd blow your cover and compromise the mission!"
+	*"Just a little one -- with a few beauty queens." 
 	*"No parade, and I walk."
 	*"Fine, but you owe me a parade.” 
 - Trust me, Mr. Trump. After this is all done, you'll have a BIG parade. no, the BIGGEST!
@@ -339,13 +338,11 @@ Mr. Trump, you're undercover. We can't have a parade for you. I'm sure you under
 ->2F
 
 ===2F===
-Okay, we've narrowed in on the terrorist with magic! Just kidding. The NSA is already tracking everyone’s cell phones anyway, so it was super easy.
+Okay, Mr. Trump. In that 30-page brief that you so courageously didn't read, you would have learned that the terrorists stole mascot costumes, and plan on striking during the Festival of Fantasy parade at this very spot in half an hour.
 
-According to the NSA, our terrorist interacted with one of the three people standing beneath that American flag by that lamp pole across the street.
+According to the NSA, our terrorist interacted with one of the three people standing beneath that American flag across the street.
 
-Now, Mr. Trump I must warn you. In that 30-page brief that you so courageously didn't read, you would have learned that the terrorists stole mascot costumes, and plan on striking during the Festival of Fantasy parade at this very spot in half an hour.
-
-That means there isn't much time, so you'll have to interrogate these civilians quickly and find out what they know. One of them -- or all of them -- could have seen the terrorist in action!
+But the clock is ticking! You'll have to interrogate these civilians quickly and find out what they know. One of them -- or all of them -- could have seen the terrorist in action!
 
 *"Got it."
 ->2F2
@@ -356,13 +353,13 @@ That means there isn't much time, so you'll have to interrogate these civilians 
 ->2F2
 
 ===2F2===
-It's an idyllic scene. A cozy corner of Main Street U.S.A. lined with potted plants and old-timey shoppes. Beneath an awning, an old man studies his bowler hat. Beside him, on a park bench, a pregnant woman roots through her purse. Several feet away, a four year-old picks her nose, her parents pointing at their phones and apparently in an argument.
+You approach a cozy corner of Main Street U.S.A. lined with potted plants and old-timey shoppes. Beneath an awning, an old man studies his bowler hat. Beside him, on a park bench, a pregnant woman roots through her purse. Several feet away, a four year-old picks her nose, her parents pointing at their phones and apparently in an argument.
 
 “Where did you go, Narrator Guy?”
 
-I didn’t want to cramp your style, sir. But don’t worry, I can still see you from my Narrator Vantage. Remember, I'm only here to help tell your story.
+I didn’t want to cramp your style, sir. But don’t worry -- I can still see you from my Narrator Vantage. Remember, I'm only here to help tell your story.
 
-“You’re right. I’m terrific on my own. I don’t need anyone holding me back.”
+“You’re right," you say. "I’m terrific on my own. I don’t need anyone holding me back.”
 
     *[Continue]
 
@@ -972,6 +969,8 @@ A stiff kick straight at Little Donald. You double over as the door is shut, lea
 ->6DonaldBetrayed
 
 ===6DonaldBetrayed===
+#PlayMusic_6DonaldBetrayed
+
 	*"Uh, hello?"
 Trump.
 	*"Anyone there?"
@@ -1158,6 +1157,8 @@ You have to stop him! I believe in you, Donald. I believe in you.
 ->7showdown
 
 ===7showdown===
+#PlayMusic_7showdown
+
 Your robust heart beats like a jungle cat on the prowl as you stride through the hall, ready to take ISIS down once and for all.
 
 You commandeer a Pargo from an unsuspecting peasant -- ahem, Disney World employee -- and drive it even faster and better than those Fast Furious guys. You drift flawlessly through the hairpin turns and darkened corridors of the Underground.
@@ -1604,6 +1605,7 @@ Terrorist Guy begins to sob. "What… What have you done to me?"
 -> 7_Terrorist_Guy_Defeated
 
 ===7_Terrorist_Guy_Defeated===
+#PlayMusic_7_Terrorist_Guy_Defeated
 
 When the dust settles, Terrorist Guy lays on his back, panting, holding his eyes -- the Hunny Pot rests beside him, still ticking. The crowd watches you, snapping photos and taking selfies.
 
@@ -1762,9 +1764,19 @@ And remember -- we only have one reality that we know of, so please vote on Nove
 	*[About the Creators]
 -> Authors
 
-    *[Brief Authorial Request]
+    *[Brief Authorial Rant]
     
 Hey all -- Danny here, writer of Donald Trump Saves the World. I started writing this game to a) learn Ink b) make my dad laugh. Let's talk about the second one.
+
+Whew! What an election. What an adventure! If you smirked/laughed/rolled your eyes once during this story, then I'll call it a success. I wrote this so that my dad could have a bit of a breather. Comedy, ya know? Plus, it seemed entirely plausible that Donald Trump's plan to take out ISIS involved going undercover as a Disney Mascot.
+
+Only other thing to mention -- if you're reading this BEFORE the election, please vote and get your friends to vote. If you're reading this AFTER the election...how are things?
+
+Also, this game was free, so a) share it, please b) do something nice for something today as payment -- donate to a charity, volunteer, give your significant other a massage. The choice is yours!
+
+Thanks for playing!
+
+DH 2016
 
 
     
