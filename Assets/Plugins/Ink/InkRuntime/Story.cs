@@ -15,7 +15,7 @@ namespace Ink.Runtime
         /// <summary>
         /// The current version of the ink story file format.
         /// </summary>
-        public const int inkVersionCurrent = 14;
+        public const int inkVersionCurrent = 15;
 
         // Version numbers are for engine itself and story file, rather
         // than the story state save format (which is um, currently nonexistant)
@@ -32,7 +32,7 @@ namespace Ink.Runtime
         /// <summary>
         /// The minimum legacy version of ink that can be loaded by the current version of the code.
         /// </summary>
-        const int inkVersionMinimumCompatible = 12;
+        const int inkVersionMinimumCompatible = 15;
 
         /// <summary>
         /// The list of Choice objects available at the current point in
@@ -738,8 +738,22 @@ namespace Ink.Runtime
 
                     var popType = evalCommand.commandType == ControlCommand.CommandType.PopFunction ?
                         PushPopType.Function : PushPopType.Tunnel;
-                    
-                    if (state.callStack.currentElement.type != popType || !state.callStack.canPop) {
+
+                    // Tunnel onwards is allowed to specify an optional override
+                    // divert to go to immediately after returning: ->-> target
+                    DivertTargetValue overrideTunnelReturnTarget = null;
+                    if (popType == PushPopType.Tunnel) {
+                        var popped = state.PopEvaluationStack ();
+                        overrideTunnelReturnTarget = popped as DivertTargetValue;
+                        if (overrideTunnelReturnTarget == null) {
+                            Assert (popped is Void, "Expected void if ->-> doesn't override target");
+                        }
+                    }
+
+                    if (state.TryExitExternalFunctionEvaluation ()) {
+                        break;
+                    }
+                    else if (state.callStack.currentElement.type != popType || !state.callStack.canPop) {
 
                         var names = new Dictionary<PushPopType, string> ();
                         names [PushPopType.Function] = "function return statement (~ return)";
@@ -757,7 +771,12 @@ namespace Ink.Runtime
 
                     else {
                         state.callStack.Pop ();
+
+                        // Does tunnel onwards override by diverting to a new ->-> target?
+                        if( overrideTunnelReturnTarget )
+                            state.divertedTargetObject = ContentAtPath (overrideTunnelReturnTarget.targetPath);
                     }
+
                     break;
 
                 case ControlCommand.CommandType.BeginString:
@@ -1059,6 +1078,7 @@ namespace Ink.Runtime
 				throw new System.Exception ("Function is empty or white space.");
 			}
 
+            // Get the content that we need to run
             Runtime.Container funcContainer = null;
             try {
                 funcContainer = ContentAtPath (new Path (functionName)) as Runtime.Container;
@@ -1069,34 +1089,8 @@ namespace Ink.Runtime
                     throw e;
             }
 
-            // We'll start a new callstack, so keep hold of the original,
-            // as well as the evaluation stack so we know if the function 
-            // returned something
-            var originalCallstack = state.callStack;
-            int originalEvaluationStackHeight = state.evaluationStack.Count;
-
-            // Create a new base call stack element.
-            // By making it point at element 0 of the base, when NextContent is
-            // called, it'll actually step past the entire content of the game (!)
-            // and straight onto the Done. Bit of a hack :-/ We don't really have
-            // a better way of creating a temporary context that ends correctly.
-            state.callStack = new CallStack (mainContentContainer);
-            state.callStack.currentElement.currentContainer = mainContentContainer;
-            state.callStack.currentElement.currentContentIndex = 0;
-
-            if (arguments != null) {
-                for (int i = 0; i < arguments.Length; i++) {
-                    if (!(arguments [i] is int || arguments [i] is float || arguments [i] is string)) {
-                        throw new System.ArgumentException ("ink arguments when calling EvaluateFunction must be int, float or string");
-                    }
-
-                    state.evaluationStack.Add (Runtime.Value.Create(arguments[i]));
-                }
-            }
-
-            // Jump into the function!
-            state.callStack.Push (PushPopType.Function);
-            state.currentContentObject = funcContainer;
+            // State will temporarily replace the callstack in order to evaluate
+            state.StartExternalFunctionEvaluation (funcContainer, arguments);
 
             // Evaluate the function, and collect the string output
             var stringOutput = new StringBuilder ();
@@ -1105,39 +1099,9 @@ namespace Ink.Runtime
             }
             textOutput = stringOutput.ToString ();
 
-            // Restore original stack
-            state.callStack = originalCallstack;
-
-            // Do we have a returned value?
-            // Potentially pop multiple values off the stack, in case we need
-            // to clean up after ourselves (e.g. caller of EvaluateFunction may 
-            // have passed too many arguments, and we currently have no way to check for that)
-            Runtime.Object returnedObj = null;
-            while (state.evaluationStack.Count > originalEvaluationStackHeight) {
-                var poppedObj = state.PopEvaluationStack ();
-                if (returnedObj == null)
-                    returnedObj = poppedObj;
-            }
-
-            if (returnedObj) {
-                if (returnedObj is Runtime.Void)
-                    return null;
-
-                // Some kind of value, if not void
-                var returnVal = returnedObj as Runtime.Value;
-
-                // DivertTargets get returned as the string of components
-                // (rather than a Path, which isn't public)
-                if (returnVal.valueType == ValueType.DivertTarget) {
-                    return returnVal.valueObject.ToString ();
-                }
-
-                // Other types can just have their exact object type:
-                // int, float, string. VariablePointers get returned as strings.
-                return returnVal.valueObject;
-            }
-
-            return null;
+            // Finish evaluation, and see whether anything was produced
+            var result = state.CompleteExternalFunctionEvaluation ();
+            return result;
         }
 
         // Evaluate a "hot compiled" piece of ink content, as used by the REPL-like
@@ -1441,25 +1405,50 @@ namespace Ink.Runtime
         /// </summary>
         public void ValidateExternalBindings()
         {
-            ValidateExternalBindings (_mainContentContainer);
+			var missingExternals = new HashSet<string>();
+
+			ValidateExternalBindings (_mainContentContainer, missingExternals);
             _hasValidatedExternals = true;
+
+			// No problem! Validation complete
+			if( missingExternals.Count == 0 ) {
+				_hasValidatedExternals = true;
+			} 
+
+			// Error for all missing externals
+			else {
+				var message = string.Format("Missing function binding for external{0}: '{1}' {2}",
+					missingExternals.Count > 1 ? "s" : string.Empty,
+					string.Join("', '", missingExternals.ToArray()),
+					allowExternalFunctionFallbacks ? ", and no fallback ink function found." : " (ink fallbacks disabled)"
+				);
+					
+				string errorPreamble = "ERROR: ";
+				if (_mainContentContainer.debugMetadata != null) {
+					errorPreamble += string.Format ("'{0}' line {1}: ", _mainContentContainer.debugMetadata.fileName, _mainContentContainer.debugMetadata.startLineNumber);
+				}
+
+				Error(message);
+			}
         }
 
-        void ValidateExternalBindings(Container c)
+		void ValidateExternalBindings(Container c, HashSet<string> missingExternals)
         {
             foreach (var innerContent in c.content) {
-                ValidateExternalBindings (innerContent);
+				var container = innerContent as Container;
+				if( container == null || !container.hasValidName )
+					ValidateExternalBindings (innerContent, missingExternals);
             }
             foreach (var innerKeyValue in c.namedContent) {
-                ValidateExternalBindings (innerKeyValue.Value as Runtime.Object);
+				ValidateExternalBindings (innerKeyValue.Value as Runtime.Object, missingExternals);
             }
         }
 
-        void ValidateExternalBindings(Runtime.Object o)
+		void ValidateExternalBindings(Runtime.Object o, HashSet<string> missingExternals)
         {
             var container = o as Container;
             if (container) {
-                ValidateExternalBindings (container);
+                ValidateExternalBindings (container, missingExternals);
                 return;
             }
 
@@ -1468,26 +1457,14 @@ namespace Ink.Runtime
                 var name = divert.targetPathString;
 
                 if (!_externals.ContainsKey (name)) {
-
-                    INamedContent fallbackFunction = null;
-                    bool fallbackFound = mainContentContainer.namedContent.TryGetValue (name, out fallbackFunction);
-
-                    string message = null;
-                    if (!allowExternalFunctionFallbacks)
-                        message = "Missing function binding for external '" + name + "' (ink fallbacks disabled)";
-                    else if( !fallbackFound ) {
-                        message = "Missing function binding for external '" + name + "', and no fallback ink function found.";
-                    }
-
-                    if (message != null) {
-                        string errorPreamble = "ERROR: ";
-                        if (divert.debugMetadata != null) {
-                            errorPreamble += string.Format ("'{0}' line {1}: ", divert.debugMetadata.fileName, divert.debugMetadata.startLineNumber);
-                        }
-
-                        throw new StoryException (errorPreamble + message);
-                    }
-
+					if( allowExternalFunctionFallbacks ) {
+						bool fallbackFound = mainContentContainer.namedContent.ContainsKey(name);
+						if( !fallbackFound ) {
+							missingExternals.Add(name);
+						}
+					} else {
+						missingExternals.Add(name);
+					}
                 }
             }
         }
@@ -1608,13 +1585,16 @@ namespace Ink.Runtime
 
             // Expected to be global story, knot or stitch
             var flowContainer = ContentAtPath (path) as Container;
-
-            // First element of the above constructs is a compiled weave
-            var innerWeaveContainer = flowContainer.content [0] as Container;
+            while(true) {
+                var firstContent = flowContainer.content [0];
+                if (firstContent is Container)
+                    flowContainer = (Container)firstContent;
+                else break;
+            }
 
             // Any initial tag objects count as the "main tags" associated with that story/knot/stitch
             List<string> tags = null;
-            foreach (var c in innerWeaveContainer.content) {
+            foreach (var c in flowContainer.content) {
                 var tag = c as Runtime.Tag;
                 if (tag) {
                     if (tags == null) tags = new List<string> ();
@@ -1686,12 +1666,12 @@ namespace Ink.Runtime
                     }
 
                     didPop = true;
-                } 
-
-                else if (state.callStack.canPopThread) {
+                } else if (state.callStack.canPopThread) {
                     state.callStack.PopThread ();
 
                     didPop = true;
+                } else {
+                    state.TryExitExternalFunctionEvaluation ();
                 }
 
                 // Step past the point where we last called out

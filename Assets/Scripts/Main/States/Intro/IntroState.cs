@@ -7,15 +7,17 @@ public class IntroState : MainState {
 	public CanvasGroup group;
 	public IntroTypedText inklePresentsText;
 	public IntroTypedText theInterceptText;
+    public IntroTypedText theSubTitleText;
 
-	public override void Enter () {
+    public override void Enter () {
 		group.gameObject.SetActive(true);
 		group.alpha = 1;
 		group.interactable = true;
 		group.blocksRaycasts = true;
 		inklePresentsText.gameObject.SetActive(false);
 		theInterceptText.gameObject.SetActive(false);
-		group.gameObject.SetActive(true);
+        theSubTitleText.gameObject.SetActive(false);
+        group.gameObject.SetActive(true);
 		base.Enter ();
 	}
 
@@ -53,10 +55,18 @@ public class IntroState : MainState {
 		while(theInterceptText.typedText.typing) {
 			yield return null;
 		}
+
+        theSubTitleText.gameObject.SetActive(true);
+        while (theSubTitleText.typedText.typing)
+        {
+            yield return null;
+        }
+
         yield return new WaitForSeconds(2);
         theInterceptText.gameObject.SetActive(false);
+        theSubTitleText.gameObject.SetActive(false);
 
-		yield return new WaitForSeconds(0.25f);
+        yield return new WaitForSeconds(0.25f);
 		yield return StartCoroutine(DoShortIntro());
 	}
 

@@ -47,7 +47,8 @@ public class GameState : MainState {
 			enabled = false;
 		}
 		story = new Story(storyJSON.text);
-		StartCoroutine(OnAdvanceStory());
+        //SetupInkExternalFunctions();
+        StartCoroutine(OnAdvanceStory());
 	}
 
 	public void Clear () {
@@ -64,18 +65,32 @@ public class GameState : MainState {
 			Destroy(contentParent.GetChild(i).gameObject);
 		}
 	}
-
-	IEnumerator OnAdvanceStory ()
+    public void SetupInkExternalFunctions()
     {
-        CheckForMusicChange();
+        story.BindExternalFunction("PlayMusic", (string arg1) => { });
+    }
+    public void PlayMusic(string music)
+    {
+        Debug.Log("GameState:PlayMusic - music:" + music);
 
+        switch(music)
+        {
+            case "PlayMusic_1A":
+                AudioClipDatabase.Instance.PlayPart1A();
+                break;
+        }
+    }
+
+    IEnumerator OnAdvanceStory ()
+    {
         if (story.canContinue)
         {
 			ChoiceGroupView choiceView = null;
 			ChevronButtonView chevronView = null;
 			while(story.canContinue) {
 				string content = story.Continue().Trim();
-				ContentView contentView = CreateContentView(content);
+                CheckForTags();
+                ContentView contentView = CreateContentView(content);
 				if(!story.canContinue) {
 					if(story.currentChoices.Count > 0) {
 						choiceView = CreateChoiceGroupView(story.currentChoices);
@@ -104,6 +119,21 @@ public class GameState : MainState {
 			CreateChevronView();
 		}
 	}
+    public void CheckForTags()
+    {
+        if (story.currentTags.Contains("PlayMusic_1A"))
+            AudioClipDatabase.Instance.PlayPart1A();
+        if (story.currentTags.Contains("PlayMusic_2D"))
+            AudioClipDatabase.Instance.PlayPart2D();
+        if (story.currentTags.Contains("PlayMusic_6DonaldBetrayed"))
+            AudioClipDatabase.Instance.PlayPart6();
+        if (story.currentTags.Contains("PlayMusic_7showdown"))
+            AudioClipDatabase.Instance.PlayPart7();
+        if (story.currentTags.Contains("PlayMusic_7_Terrorist_Guy_Defeated"))
+            AudioClipDatabase.Instance.PlayPart7END();
+        if (story.currentTags.Contains("play_airplane_sfx"))
+            AudioClipDatabase.Instance.PlayPlaneTakeoff();
+    }
 
 	public void ChooseChoiceIndex (int choiceIndex) {
 		DestroyEmpties();
@@ -122,23 +152,6 @@ public class GameState : MainState {
 	public void ClickChevronButton () {
 		Complete();
 	}
-
-    public void CheckForMusicChange()
-    {
-        Debug.Log("GameState:CheckForMusicChange");
-        List<string> tagList = story.currentTags;
-
-        Debug.Log("story.currentTags Count: " + story.currentTags.Count);
-        Debug.Log("TagList Count: " + tagList.Count);
-
-        if (tagList.Contains("play_airplane_sfx"))
-        {
-            AudioClipDatabase.Instance.PlayPlaneTakeoff();
-            Debug.Log("Airplane Noise!");
-        }
-
-        tagList.ForEach(item => Debug.Log("Item: " + item));
-    }
 
 	ContentView CreateContentView (string content) {
 		ContentView contentView = Instantiate(contentViewPrefab);

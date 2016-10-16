@@ -27,7 +27,6 @@ Donald Trump Saves the World
     ->7showdown
     
 ===Authors===
-# Authors play_airplane_sfx
     
 This game was written and designed by Danny Homan (www.dannyhoman.com), with additional writing and design by Connor Thomas Cleary (www.connorthomascleary.com), design/coding by Zach Bohn, and music and sound design by Raison Varner (www.soundcloud.com/rvarner).
 
@@ -35,7 +34,6 @@ This game was written and designed by Danny Homan (www.dannyhoman.com), with add
     -> 1A
 
 ===1A===
-#PlayMusic_1A
 
 At 725 Fifth avenue in midtown Manhattan stands a tower. But not just any tower. A Trump Tower. THE Trump Tower. It is a crisp November morning, a week shy of Thanksgiving, and on the 58th floor the President-elect of the United States of America is busy staring at a newspaper headline.
 
@@ -182,7 +180,7 @@ You pose heroically.
 ->2D
 
 ===2D===
-# play_airplane_sfx
+#play_airplane_sfx
 During the flight you're restless. ISIS in Disney World. This is the greatest test you've ever faced. Your bold claims about stopping ISIS will be put to the test. Every decision you make could mean the difference between making America great again, or losing the jewel of the United States. 
 
 Orlando.
