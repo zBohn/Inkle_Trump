@@ -10,6 +10,7 @@ VAR climax_fight = 0
 VAR summon = 0
 VAR insult = 0
 VAR oldmandead = false
+VAR gameover = false
 
 Donald Trump Saves the World
 
@@ -1554,8 +1555,6 @@ Share this story here.
 
 And remember -- we only have one reality that we know of, so please vote on November 8th.
 
-	*[About the Creators]
--> Authors
 
     *[Brief Authorial Rant]
     
