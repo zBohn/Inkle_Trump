@@ -44,7 +44,7 @@ And today, by the awesome magic of fiction -- you are that man.
 You are Donald Trump.
 
     	*[Touch the Hair]
-    "Mmm," you say. "Love massaging my big brain. But no one does it like Melania."
+    "Mmm," you say. "But no one does it like Melania."
     ->1A1
     
     	*[Don't Touch the Hair]
@@ -88,7 +88,7 @@ I couldn't agree more, Mr. Trump! I'm sorry to disturb you, but the NSA just inf
 
 - Well said, Mr. Trump! I know, the stakes couldn't be higher, but I'm excited to be along for the ride as you take care of your first campaign pledge: Defeating ISIS!
 
-So are you ready to finally show us all how you're going to defeat ISIS?
+So are you ready to finally show us all how you're going to defeat them?
 
 * ["Yeah -- about time."]
 "Yeah, of course," you say. "It's about time. Luckily for the NSA, I already have a plan."
@@ -97,7 +97,7 @@ So are you ready to finally show us all how you're going to defeat ISIS?
 *["Absolutely not."]
 "Absolutely not," you say. "No way. If this little story of yours gets out, ISIS will know my foolproof strategy."
 
-But, Mr Trump, as I mentioned -- we've got some troubling intel that ISIS might be planning to destroy one of our national treasures. The jewel of the south. The justification for Florida's very existence.
+But, Mr Trump, ISIS is planning to bomb one of our national treasures. Disney World. The jewel of the south. The justification for Florida's very existence. Please!
 
 -> 1B2
 
@@ -109,7 +109,7 @@ But, Mr Trump, as I mentioned -- we've got some troubling intel that ISIS might 
 
 ===1C===
 
-Let's get started, Mr. Trump. According to intel, ISIS has smuggled explosives inside Disney World! We need you to go undercover, find the terrorists, and stop them.
+Let's get started then, Mr. Trump. According to intel, ISIS has smuggled explosives inside Disney World! We need you to go undercover, find the terrorists, and stop them.
 
 Please take this, sir. It's a 30-page brief on ISIS's plot, their logistical support, known actors, and--
 
@@ -123,7 +123,7 @@ Completely and totally destroy ISIS.
 
 -> 2B2
 
-* ["30 pages? You're fired."]
+* ["You're fired."]
 "You're fired, Narrator Guy," you say. "30 pages? Are you kidding me? I don't have time for this. I'm a busy man."
 
 But Mr. Trump -- if you fire me, who will tell your story?
@@ -177,7 +177,7 @@ Orlando.
 
 ===1D===
 You step out of your private jet and into the oppressive, humid Florida air. The odor of oranges and old people whiling away their final years wafts towards you.
-A black Lincoln MKZ is waiting for you. The door opens, and you step inside.
+A black Lincoln MKZ is waiting on the runway. The door opens, and you step inside.
 
 Okay, Mr. Trump. We're on our way to Disney World! Before we get there, we need to pick your cover mascot.
 
@@ -237,14 +237,14 @@ So...how does your costume fit, Mr. Trump?
 	*["Not bad."]
 "Not bad, actually," you say. "Ready to take over -- er -- save the world!"
 
-*[Continue]
+- Great!
 
-- ->2B
+*[Continue] ->2B
 
 ===2B===
 That reminds me -- if I'm coming along, I've got to put on MY mascot outfit.
 
-Briefly, you watch me struggle into a mascot outfit half the size of yours. Then you turn way towards your own image, reflected in your computer monitor.
+Briefly, you watch me struggle into a mascot outfit half the size of yours. 
 
 One sec...one sec...TADA!
 
@@ -271,19 +271,18 @@ Disney World Security takes you through a back entrance and down into a series o
 This is the nerve center of the greatest place on earth -- sorry, second greatest, sir. Right after Trump Tower of course.
 
     *"And don't you forget it."
+    *"Don't slip up again, Narrator Guy."
     
-    ->2D2
+- ->2D2
     
 ===2D2===
 You hop on a golf cart and speed through sparsely-lit hallways, past throngs of employees and performers, until finally you reach the exit. Your eyes adjust to the light. A horse and carriage passes as you emerge from the Underground.
 
-Main Street U.S.A. is the America you remember from your childhood, a picture of the 1950s. Clean streets, colorful buildings, trolleys, and soda shops adorn the streets while street performers dazzle tourists and mascots pose for photos with children. In the distance, the blue spires of Cinderella's castle rise to meet a perfect blue sky. 
+Main Street U.S.A. is the America you remember from your childhood, a picture of the 1950s. Clean streets, colorful buildings, trolleys, and soda shops adorn the streets while street performers dazzle tourists and mascots pose for photos with children. A horse pulls a trolley down the road. In the distance, the blue spires of Cinderella's castle rise to meet a perfect blue sky. 
 
 *"Not a bad looking castle. That Snow White was loaded!"
 Actually, it's Cinderella's Castle, Mr. Trump.
 "The maid? Let me tell you, never invite a maid to a palace. Also, glass slippers -- very impractical. Lawsuit waiting to happen. Trust me." 
-**[Continue]
-->2E
 
 *"That horse just took a huge dump!"
 Yes, well horses do that, Mr. Trump.
@@ -304,9 +303,12 @@ Mr. Trump, you're undercover! We can't have a parade for you. It'd blow your cov
 	*"Just a little one -- with a few beauty queens." 
 	*"No parade, and I walk."
 	*"Fine, but you owe me a parade.” 
-- Trust me, Mr. Trump. After this is all done, you'll have a BIG parade. no, the BIGGEST!
+- Trust me, Mr. Trump. After this is all done, you'll have a BIG parade. no, the BIGGLIEST!
 
-    *[Continue]
+    *"Well said."
+    *"Make sure you do."
+    
+- I promise!
 ->2F
 
 ===2F===
@@ -326,6 +328,8 @@ But the clock is ticking! You'll have to interrogate these civilians quickly and
 
 ===2F2===
 You approach a cozy corner of Main Street U.S.A. lined with potted plants and old-timey shops. Beneath an awning, an old man studies his bowler hat. Beside him, on a park bench, a pregnant woman roots through her purse. Several feet away, a four year-old picks her nose, her parents pointing at their phones and apparently in an argument.
+
+When you look back, you see me watching you from across the street.
 
 “Where did you go, Narrator Guy?”
 
@@ -350,8 +354,7 @@ So who do you want to interrogate, Mr. Trump?
 *["The Four year-old."]
 ->fouryearold
 
-{mascotquestions >= 1} 
-+"I'm done here."
+* {mascotquestions >= 1 } "I'm done here." 
 ->3A
 
 ===oldman===
@@ -471,32 +474,13 @@ Alright, Mr. Trump. Hope you got some good intel -- our terrorist is on the move
 "Right...right."
 	*"Oh no! That'd be terrible for my presidency…
 	<> Oh, and for the country too, I guess."
-Mr. Trump. We've got to hurry!
 
-- I'm hearing that the terrorist is in Tomorrowland, Mr. Trump. We've got to hurry!
+- Mr. Trump -- I'm hearing that the terrorist is in Fantasyland, Mr. Trump. We've got to hurry!
 
-	*"To Tomorrowland...TODAY!" 
-	*"Let's go!"
-
-- ->4tomorrowland
-
-
-===4tomorrowland===
-One-seater rockets volley around a space shuttle with USA printed in big, bold red letters. Throngs of crowd wait and watch cars race along the Tomorrowland Speedway. A hidden desire tugs you towards the Finding Nemo Submarine Voyage. You hear laughter in the distance.
-
-- Mr. Trump, he's on the move! Fantasyland. This is our chance!" 
-
-	*"Hurry!"
-	*"To Fantasyland!"
-
-- Let's go! This is our big chance to save the world!
-    
 ->4fantasyland 
 
 ===4fantasyland===
-The purple flaps of Dumbo's tent ripple in the breeze. Ancient castles stand in the distance, defended by high walls and long lines. You spend a moment fantasizing about life as a feudal lord. But there’s work to be done.
-
-Slowly, you gravitate towards the bust of Ariel the Mermaid.
+The purple flaps of Dumbo's tent ripple in the breeze. Ancient castles stand in the distance, defended by high walls and long lines. You spend a moment fantasizing about life as a feudal lord. You gravitate towards the bust of Ariel the Mermaid, but there’s work to be done.
 
     *[Continue]
 
@@ -550,24 +534,22 @@ Sounds good, Mr. Trump! We're gonna save a lot of lives today! But the bomb coul
 ->5smallroom
 
 ===5smallroom===
-It's a small room, the size of one of your closets -- or a regular person's bedroom. A halogen light sizzles and flickers like out of a 1950s detective movie. On a folding table is a towel and several two-liter bottles of your favorite childhood beverage, Sunny Delight.
+It's a small, dark room. A halogen light sizzles and flickers like out of a 1950s detective movie. On a folding table is a towel and several two-liter bottles of your favorite childhood beverage, Sunny Delight.
 
 The prisoner sits in a chair, hands tied, looking down at the ground.
 
-	*"Nice work, Narrator Guy! This is a great setup here!"
-I thought you'd like it, Mr. Trump. The NSA knows dank interrogation rooms like the back of every citizen’s credit card, also the front.
+	*"Nice work, Narrator Guy! Great setup!"
+I thought you'd like it, Mr. Trump. The NSA knows dank interrogation rooms -- trust me.
 
 	*"How'd you get this room ready so quick?"
 
 I told you -- I used to be with the NSA. 
 
-    - We've got to find out what this terrorist bastard knows. That bomb could be anywhere, and we’ve got to save the Magic Kingdom!
+    - We've got to find out where ISIS hid the bomb!
 ->5smallroomA
 
 ===5smallroomA===
  {interrogationtime >=3: ->5smallroomB}
-
-{We've got to find out what he knows!|This ISIS operative is gonna pay! Let's make this piggy squeal!}
     
 	+{ waterboard_number <= 2} ["Waterboard"]
 "Hand me that Sunny Delight, Narrator Guy," you say. "I'm gonna juice this bastard!"
@@ -577,7 +559,7 @@ I told you -- I used to be with the NSA.
 ->Question
 
 	*[Proclaim heroism]
-"I just wanted to take a second to mention that I'm doing a great job. I mean, this is really just terrific stuff."
+"I just wanted to take a second to mention that I'm doing a great job. I choose good. Real good."
 
 You're an inspiration to us all, Mr. Trump!
 
@@ -591,7 +573,7 @@ You're an inspiration to us all, Mr. Trump!
 
     *"Where's the bomb?"
 ~interrogationtime++
-“I don't know!”
+“I don't know," the prisoner screams.
 You give him the D! The Sunny Delight pools on the wet rag. The gurgling sounds are atrocious.
 "St -- STOP!"
 "Where's the bomb, guy?" you demand. "WHERE. IS. THE. BOMB?"
@@ -599,10 +581,12 @@ You give him the D! The Sunny Delight pools on the wet rag. The gurgling sounds 
 
 ->Waterboard
 
-	*"Who are you working with?"
+	*"Where are your ISIS buddies?"
 ~interrogationtime++
-"THE FBI! We're tracking a terrorist who infiltrated YOUR organization!"
+"ISIS buddies? I'm FBI! We're tracking a terrorist who infiltrated the Trump organization!"
 "That's impossible," you say. "My organization is airtight!"
+
+"...your organization..."
 ->Waterboard
 
 	*"Where's the bomb?"
@@ -679,12 +663,10 @@ You strike the prisoner, but the blow bounces off his mascot costume.
 -> 5smallroomA
 
 ===5smallroomB===
-	"He's the traitor," the prisoner screams. "Mr. Trump. I beg you -- this isn't who you think it is. You must know who the real terrorist is…"
-	*"You."
-"You're the terrorist," you say. "Narrator Guy helped me catch you, so don't try to squirm out of this!"
-	* "Narrator Guy."
+	"He's the traitor," the prisoner screams. "I beg you -- this is all a big set up! Wait a minute -- I recognize you. You're an ISIS operative..."
 
-- BOOM…
+BOOM…
+
 The prisoner falls limp against the table. His head lolls to the side.
 
     *[Continue]
@@ -692,36 +674,29 @@ The prisoner falls limp against the table. His head lolls to the side.
 
 
 ===5smallroomC===
-You stare back in disbelief at me, Narrator Guy, your loyal servant. Then you see it, the smoking barrel of the gun in my hand. You can't believe you were so blind. Such a fool, such a Trump!
+You stare back in disbelief at me, Narrator Guy, your loyal servant, your chronicler. Then you see it, the gun in my hand.
 
-"You SHOT him!" you say.
-
-    *"What the hell is wrong with you, Narrator Guy?"
-    *"Wow… That was a good shot. Not as good as me, I would have shot better, but..."
+    *"Why did you do that?"
+    *"Wow…that was a good shot!"
+"Not as good as me, I would have shot better, but..."
     
-- 
+- That will be QUITE enough, Trump. 
     
 ->5smallroomC1
 
 ===5smallroomC1
-That will be QUITE enough, Trump. 
-
-Shut the hell up, you narcissistic blowhard!
-
 You stare down the barrel of my gun.
 
-Don't make any sudden movements.
-"Hey...Narrator Guy...put the gun down."
+Don't make any sudden movements, Trump.
+
+    *"Calm down, Narrator Guy..."
+    *"Put the gun down."
 
 Click. 
 
 *"What's the deal?"
 *"We're friends, right?"
-- Silence.
-
-No, Trump. Not friends. No, I wouldn't say that.
-
-You got me this far, Mr. Trump. But I'm afraid your part in this story is about to end.
+- You got me this far, Mr. Trump. But I'm afraid your part in this story is about to end.
 SMACK!
 ...Darkness...
 
