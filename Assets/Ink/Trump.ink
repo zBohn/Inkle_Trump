@@ -35,6 +35,8 @@ This game was written and designed by Danny Homan (www.dannyhoman.com), with add
 
 ===1A===
 
+#PlayMusic_1A
+
 At 725 Fifth Avenue in midtown Manhattan stands a tower. But not just any tower. A Trump Tower. THE Trump Tower. It is a crisp November morning, a week shy of Thanksgiving, and on the 58th floor the President-elect of the United States of America is busy staring at a newspaper headline.
 
 TRUMP TRUMPS HRC.
@@ -265,7 +267,7 @@ You see me, Narrator Guy, before you, wearing a floppy hat and tunic.
 ->2D1
 
 ===2D1===
-
+#PlayMusic_2D1
 Disney World Security takes you through a back entrance and down into a series of tunnels known as the Underground. Service personnel, entertainers, and mascots walk briskly by while mascot-laden golf carts zip down the myriad of hallways.
 
 This is the nerve center of the greatest place on earth -- sorry, second greatest, sir. Right after Trump Tower of course.
@@ -805,7 +807,7 @@ A stiff kick straight at Little Donald. You double over as the door is shut and 
     *[Continue]
 
 ->6DonaldBetrayed
-
+//Music cuts out here .
 ===6DonaldBetrayed===
 #PlayMusic_6DonaldBetrayed
 
