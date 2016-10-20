@@ -536,6 +536,8 @@ Sounds good, Mr. Trump! We're gonna save a lot of lives today! But the bomb coul
 ->5smallroom
 
 ===5smallroom===
+#PlayMusic_5smallroom
+
 It's a small, dark room. A halogen light sizzles and flickers like out of a 1950s detective movie. On a folding table is a towel and several two-liter bottles of your favorite childhood beverage, Sunny Delight.
 
 The prisoner sits in a chair, hands tied, looking down at the ground.
@@ -802,12 +804,12 @@ Just sit tight, Trump. One of my associates will be along shortly. And let’s j
 
 It's my story now, Trump. Narrate this!
 
-A stiff kick straight at Little Donald. You double over as the door is shut and your story ends.
+A stiff kick straight at Little Donald. You double over as the door is shut and your story ends...
 
     *[Continue]
 
 ->6DonaldBetrayed
-//Music cuts out here .
+
 ===6DonaldBetrayed===
 #PlayMusic_6DonaldBetrayed
 
@@ -824,7 +826,7 @@ Donald.
 	*"Is anyone there?"
 - Donald -- can you hear me?"
 
-- "It's just me. Okay, gotta get out of this chair!"
+"It's just me," you say. "Okay, gotta get out of this chair!"
 
 	*[Flex to break rope]
 "In my mind, I broke free like that big green guy."
