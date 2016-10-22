@@ -71,7 +71,7 @@ Hi, Mr. Trump! Hey -- over here. It's me.
 
     *"Who said that?"
 
-- You whirl around to see me. An unassuming, cleancut young man. I speak quickly and calmly to assure you not to call security.
+- For a moment, you thought the voice came from your own head, but sure enough, you whirl around to see me, an unassuming, cleancut young man. I speak calmly to assure you not to call security.
 
 Hi, Mr. Trump. Sorry to startle you! I'm your new assistant -- I'm also the guy who will be narrating your undoubtedly heroic tale of saving the world! Call me Narrator Guy! Wow, it's really an inspiration to be working for you, sir! I can't wait to tell the story of how you make America great again!
 
@@ -88,16 +88,16 @@ I couldn't agree more, Mr. Trump! I'm sorry to disturb you, but the NSA just inf
 	*"That's just terrible."
 	*"That's bad -- real bad."
 
-- Well said, Mr. Trump! I know, the stakes couldn't be higher, but I'm excited to be along for the ride as you take care of your first campaign pledge: Defeating ISIS!
+- Couldn't have said it better myself, Mr. Trump! I'm excited to be along for the ride as you take care of your first campaign pledge: Defeating ISIS!
 
-So are you ready to finally show us all how you're going to defeat them?
+So...are you ready to finally show us all how you're going to defeat them?
 
-* ["Yeah -- about time."]
+* ["Yeah."]
 "Yeah, of course," you say. "It's about time. Luckily for the NSA, I already have a plan."
 -> 1C
 
-*["Absolutely not."]
-"Absolutely not," you say. "No way. If this little story of yours gets out, ISIS will know my foolproof strategy."
+*["No."]
+"No. Absolutely not," you say. "No way. If this little story of yours gets out, ISIS will know my foolproof strategy."
 
 But, Mr Trump, ISIS is planning to bomb one of our national treasures. Disney World. The jewel of the south. The justification for Florida's very existence. Please!
 
@@ -113,7 +113,7 @@ But, Mr Trump, ISIS is planning to bomb one of our national treasures. Disney Wo
 
 Let's get started then, Mr. Trump. According to intel, ISIS has smuggled explosives inside Disney World! We need you to go undercover, find the terrorists, and stop them.
 
-Please take this, sir. It's a 30-page brief on ISIS's plot, their logistical support, known actors, and--
+I hold out a stack of papers. Please take this, sir. It's a 30-page brief on ISIS's plot, their logistical support, known actors, and--
 
    	 * ["Gimme the one-page."]
 
@@ -143,16 +143,16 @@ Mr. Trump...I...
 -> 2B2
 	
 ===2B2===
-Okay, Mr. Trump -- I've received word that the terrorist is currently about to make a drop at Main Street U.S.A. in the Magic Kingdom. We'll finally put your Art of the Deal skills to the test!
+Okay, Mr. Trump -- here's the deal. A terrorist is going to plant a bomb in Disney World, but you're gonna stop him. Isn't that right?
 
 	*"Yeah!" 
 	*"Ya!" 
 	*"Yuh!"
-- Couldn't have said it better myself, sir!
+- You're an inspiration to us all, Mr. Trump. I'll call for your private jet.
 	->2C
 
 ===2C===
-Your private jet is ready. Let's go to Florida!
+We're all set, Mr. Trump! Let's go to Florida!
 
 	*[To Florida!] 
 	->2D
@@ -170,7 +170,7 @@ You pose heroically.
 
 ===2D===
 #play_airplane_sfx
-During the flight you're restless. ISIS in Disney World. This is the greatest test you've ever faced. Your bold claims about stopping ISIS will be put to the test. Every decision you make could mean the difference between making America great again, or losing the jewel of the United States. 
+During the flight you're restless. ISIS in Disney World. Your bold claim about stopping ISIS will be put to the test. Every decision you make could mean the difference between making America great again, or losing the jewel of the United States. 
 
 Orlando.
 
@@ -179,13 +179,13 @@ Orlando.
 
 ===1D===
 You step out of your private jet and into the oppressive, humid Florida air. The odor of oranges and old people whiling away their final years wafts towards you.
-A black Lincoln MKZ is waiting on the runway. The door opens, and you step inside.
+A black Lincoln MKZ is waiting on the runway. I open the door for you, and you step inside.
 
 Okay, Mr. Trump. We're on our way to Disney World! Before we get there, we need to pick your cover mascot.
 
 * ["Cover mascot?"]
 
-"Cover mascot?" you ask, uncomfortable that there's something you don't know. "What the heck are you talking about, Narrator Guy?"
+"Cover mascot?" you ask. "What the heck are you talking about, Narrator Guy?"
 
 Mr. Trump, you're the most popular man in America! And your hair is...distinct. You can't go into Disney World without a disguise.
 
@@ -226,9 +226,9 @@ Absolutely, sir!
 ===2A===
 You put the mascot suit on. It smells like the tears of countless actors and sacrificed dignity. But you, Donald Trump, are no stranger to either.
 
-"What'd you say about me, Narrator Guy?"
+    *"What'd you say about me, Narrator Guy?"
 
-Oh -- just setting the scene, Mr. Trump. Trust me, it'll be good for ratings.
+- Oh -- just setting the scene, Mr. Trump. Trust me, it'll be good for ratings.
 
 So...how does your costume fit, Mr. Trump?
 
@@ -246,11 +246,11 @@ So...how does your costume fit, Mr. Trump?
 ===2B===
 That reminds me -- if I'm coming along, I've got to put on MY mascot outfit.
 
-Briefly, you watch me struggle into a mascot outfit half the size of yours. 
+Briefly, you watch me struggle into a mascot outfit consisting of a tunic and floppy hat. 
 
 One sec...one sec...TADA!
 
-You see me, Narrator Guy, before you, wearing a floppy hat and tunic. 
+My outfit looks familiar to you, but you can't quite place it.
 
 	*"Who are you supposed to be?"
 	I'm Grumpy! The dwarf. From Snow White and the Seven Dwarves!
@@ -268,7 +268,7 @@ You see me, Narrator Guy, before you, wearing a floppy hat and tunic.
 
 ===2D1===
 #PlayMusic_2D1
-Disney World Security takes you through a back entrance and down into a series of tunnels known as the Underground. Service personnel, entertainers, and mascots walk briskly by while mascot-laden golf carts zip down the myriad of hallways.
+Disney World Security takes you through a back entrance and down into a series of tunnels known as the Underground. Service personnel, entertainers, and mascots walk briskly by as mascot-laden golf carts zip down the myriad of hallways.
 
 This is the nerve center of the greatest place on earth -- sorry, second greatest, sir. Right after Trump Tower of course.
 
@@ -278,7 +278,7 @@ This is the nerve center of the greatest place on earth -- sorry, second greates
 - ->2D2
     
 ===2D2===
-You hop on a golf cart and speed through sparsely-lit hallways, past throngs of employees and performers, until finally you reach the exit. Your eyes adjust to the light. A horse and carriage passes as you emerge from the Underground.
+I take the driver's seat on a golf cart and we speed through sparsely-lit hallways, past throngs of employees and performers. Finally I stop the cart and lead you to an elevator. When the door opens, it takes your eyes a moment to adjust to the light.
 
 Main Street U.S.A. is the America you remember from your childhood, a picture of the 1950s. Clean streets, colorful buildings, trolleys, and soda shops adorn the streets while street performers dazzle tourists and mascots pose for photos with children. A horse pulls a trolley down the road. In the distance, the blue spires of Cinderella's castle rise to meet a perfect blue sky. 
 
@@ -292,7 +292,7 @@ Yes, well horses do that, Mr. Trump.
 
 I'll keep that in mind, sir.
 
-- You stare out at the busy street, but something feels off...you take off your mascot head to survey the scene.
+- You stare out at the busy street, but something feels wrong...you take off your mascot head to survey the scene.
 
     *[Continue]
 
@@ -301,16 +301,16 @@ I'll keep that in mind, sir.
 ===2E===
 Mr. Trump, put your mascot head back on or someone will recognize you! There's a terrorist on--
 “-- where’s my parade?"
-Mr. Trump, you're undercover! We can't have a parade for you. It'd blow your cover and compromise the mission!"
+Mr. Trump,we can't have a parade for you right now. It'd blow your cover and compromise the mission!"
 	*"Just a little one -- with a few beauty queens." 
 	*"No parade, and I walk."
 	*"Fine, but you owe me a parade.” 
-- Trust me, Mr. Trump. After this is all done, you'll have a BIG parade. no, the BIGGLIEST!
+- Trust me, Mr. Trump. After this is all done, you'll have a BIG parade. no, the BIGLIEST!
 
     *"Well said."
     *"Make sure you do."
     
-- I promise!
+- I promise, Mr. Trump. Mark my words!
 ->2F
 
 ===2F===
@@ -331,13 +331,7 @@ But the clock is ticking! You'll have to interrogate these civilians quickly and
 ===2F2===
 You approach a cozy corner of Main Street U.S.A. lined with potted plants and old-timey shops. Beneath an awning, an old man studies his bowler hat. Beside him, on a park bench, a pregnant woman roots through her purse. Several feet away, a four year-old picks her nose, her parents pointing at their phones and apparently in an argument.
 
-When you look back, you see me watching you from across the street.
-
-“Where did you go, Narrator Guy?”
-
-I didn’t want to cramp your style, sir. But don’t worry -- I can still see you from my Narrator Vantage. Remember, I'm only here to help tell your story.
-
-“You’re right," you say. "I’m terrific on my own. Maybe the best.”
+When you glance back, you see me watching you from across the street. I give you a big thumbs up.
 
     *[Continue]
 
@@ -430,8 +424,8 @@ You follow up with an amount of laughter that could only be called self indulgen
 	*"What are you hiding beneath that shirt?"
 	"What are you talking about?"
 	"Could be a bomb," you say. "Come on, let me give it a good security rub. Our national security is at risk!"
-	She backs away. "Touch me, and I'll tear you limb from limb, buddy. So BACK OFF!"
-- Hey, um -- sir. Uh, maybe we should back off.
+	She scowls. "Touch me, and I'll tear you limb from limb. So BACK OFF!"
+- Hey, um -- Mr. Trump. You're great with women, maybe the best. But you should probably do what she says.
     *[Continue]
 	->2questions
 
@@ -474,10 +468,10 @@ Alright, Mr. Trump. Hope you got some good intel -- our terrorist is on the move
 	*"How do you know all of this, Narrator Guy?"
 ...I'm a narrator. That's what I do.
 "Right...right."
-	*"Oh no! That'd be terrible for my presidency…
-	<> Oh, and for the country too, I guess."
+	*"Oh no! That'd be terrible for my presidency!"
+	<> you say. "Oh, and for the country too, I guess."
 
-- Mr. Trump -- I'm hearing that the terrorist is in Fantasyland, Mr. Trump. We've got to hurry!
+- Mr. Trump -- I'm hearing that the terrorist is in Fantasyland. We've got to hurry!
 
 ->4fantasyland 
 
@@ -486,7 +480,7 @@ The purple flaps of Dumbo's tent ripple in the breeze. Ancient castles stand in 
 
     *[Continue]
 
-Mr. Trump -- there they are! The mascots! Sleepy the Dwarf, Donald Duck, and Winnie the Pooh, all taking pictures with children. One of them is sure to have the bomb -- you've got to grab the right one. I'll create a distraction as soon as you've chosen your target!
+Mr. Trump -- there they are! The mascots! Sleepy the Dwarf, Donald Duck, and Pluto, all taking pictures with children. One of them is sure to have the bomb -- you've got to grab the right one. I'll create a distraction as soon as you've chosen your target!
 -> 4fantasylandB
 
 ===4fantasylandB===
@@ -503,16 +497,16 @@ You approach Donald Duck.
 "Out of respect for your name," you say. "I'm not gonna tackle you. I admire you muchly, especially your courage in the face of society’s obsession with requiring pants in public. So come quietly, Donald… I have questions. You have answers."
 ->4fantasylandC
 
-*[Winnie the Pooh]
+*[Pluto]
 
-"I loved ya, Pooh," you say. "Like a brother. But you had to dip your weird, fingerless paw into the honeypot of terror, didn't ya? Come. With. Me."
+"You've been a bad dog, Pluto. Come. With. Me."
 
 ->4fantasylandC
 
 ===4fantasylandC===
-A fire alarm sounds from Princess Fairytale Hall just as you grab the mascot. Seconds later you see me run out with a smirk on my face.
+A fire alarm sounds from Princess Fairytale Hall just as you grab the mascot. Seconds later you see me run out with a smirk on my face. I give you a double-thumbs up.
 
-Alright, Mr. Trump! Let's get him to the Underground. I know a place that's real quiet where no one can hear you scream.
+Alright, Mr. Trump! Let's get him to the Underground. I know a place that's real quiet where no one can hear you scream. Like, not even a little.
 
 	*"Whoa… Creepy, Narrator Guy."
 Nothing is creepy in the pursuit of justice, Mr. Trump.
@@ -555,7 +549,7 @@ I told you -- I used to be with the NSA.
 ===5smallroomA===
  {interrogationtime >=3: ->5smallroomB}
     
-	+{ waterboard_number <= 2} ["Waterboard"]
+	+{ waterboard_number <= 2} [Waterboard]
 "Hand me that Sunny Delight, Narrator Guy," you say. "I'm gonna juice this bastard!"
 ->Waterboard
 
@@ -593,12 +587,12 @@ You give him the D! The Sunny Delight pools on the wet rag. The gurgling sounds 
 "...your organization..."
 ->Waterboard
 
-	*"Where's the bomb?"
+	*"What's your plot?"
 ~interrogationtime++
 "Please -- there's been some sort of mistake!"
 
 You pour Sunny Delight on the wet rag.
-The prisoner sputters. "No more -- please! I don't know where the bomb is!" 
+The prisoner sputters. "No more -- please!" 
 Hit him with the Sunny D again, Mr. Trump! He's obviously lying.
 			
 ->Waterboard
@@ -619,34 +613,22 @@ Hit him with the Sunny D again, Mr. Trump! He's obviously lying.
 ~interrogationtime++
 ~questions++
 
-"The FBI," the prisoner cries. "I'm FBI, I swear -- I had geolocated the terrorist and was about to apprehend him when you stopped me!"
+"The FBI," the prisoner cries. "I'm FBI, I swear -- I was about to apprehend a terrorist when you grabbed me!"
 
 He's trying to stall, Mr. Trump. So his terrorist buddies can set off the bomb, no doubt! Let me hit him!
 
-**[Hit him]
-The prisoner reels back, stunned.
-**[Back Off]
-        
-        -- You lean in.
-
 ->5smallroomA
 
-** [Hit Prisoner]
-You strike the prisoner, but because of his costume, you doubt he felt the blow.
+** "You're lying!"
+"I'm not," he says. "Look, I don't know you who are, but let me go now!"
 
 ->Question
 
 ** "What terrorist?"
-"A terrorist who has been infiltrating a top political figure's organization. That's all I know."
+"A terrorist who has been infiltrating a top political figure's organization," the prisoner says softly. "That's all I know."
 
-He's lying, Mr. Trump. Stalling until reinforcements arrive -- the oldest trick in the book, in your book -- your excellent book, The Art of the Deal. Hit him!
+He's lying, Mr. Trump. Stalling until reinforcements arrive -- the oldest trick in the book, in your book -- your excellent book, The Art of the Deal.
 
-		*** [Strike Prisoner]
-You strike the prisoner, but the blow bounces off his mascot costume.
--> 5smallroomB
-
-		***"Go on, Prisoner Guy. Talk."
-	"All I know," the prisoner says slowly. "Is that the terrorists were using mascots to infiltrate Disney World, and that one of them was wearing a hat."
 ->Question
 
 
@@ -667,7 +649,7 @@ You strike the prisoner, but the blow bounces off his mascot costume.
 -> 5smallroomA
 
 ===5smallroomB===
-	"He's the traitor," the prisoner screams. "I beg you -- this is all a big set up! Wait a minute -- I recognize you. You're an ISIS operative..."
+	"You're the ISIS operative," the prisoner screams. "Aren't you? Oh no... please, don't...I've got a--"
 
 BOOM…
 
@@ -678,11 +660,11 @@ The prisoner falls limp against the table. His head lolls to the side.
 
 
 ===5smallroomC===
-You stare back in disbelief at me, Narrator Guy, your loyal servant, your chronicler. Then you see it, the gun in my hand.
+You turn around. There I am, holding the gun.
 
-    *"Why did you do that?"
+    *"Why did you do that, Narrator Guy?"
     *"Wow…that was a good shot!"
-"Not as good as me, I would have shot better, but..."
+"Not as good as me," you say. "I would have shot better, but..."
     
 - That will be QUITE enough, Trump. 
     
@@ -696,7 +678,7 @@ Don't make any sudden movements, Trump.
     *"Calm down, Narrator Guy..."
     *"Put the gun down."
 
-Click. 
+- Click. 
 
 *"What's the deal?"
 *"We're friends, right?"
@@ -709,7 +691,7 @@ SMACK!
 
 
 ===5smallroomD===
-You wake in another small room. Naked and bound to a cold steel chair, never a good sentence to utter when you're in the darkness of Disney World's Underground. But you're Donald Trump, and poorly chosen words have never held you back.
+You wake up, naked and bound to a cold steel chair, never a good sentence to utter when you're in the darkness of Disney World's Underground. But you're Donald Trump, and poorly chosen words have never held you back.
 
 Your head is aching. Clearly you've been drugged. 
 
@@ -717,28 +699,24 @@ Your head is aching. Clearly you've been drugged.
 
 	*[Try to break free]
 
-I laugh at your feeble efforts. You struggle against the ropes but to no avail.
-
-"Avail?" you say. "Pretty melodramatic, don’t you think, Narrator Guy?"
-
-AVAIL THIS, Trump!
+You're not going anywhere, Trump!
 
 SMACK.
 
 Your cheek stings.
 
 	*[Bribe Narrator Guy]
-"Listen -- Narrator Guy," you say. "I got a lot of properties. You let me go, and you can stay in one for a whole week. No -- three days. That's a good deal. You should take it."
-	*[Proclaim heroism]
+"Listen -- Narrator Guy," you say. "I got a lot of properties. You let me go, and you can stay in one for a whole week. No -- a month. That's a good deal. You should take it."
+	*[Boast]
 "My brain, maybe the best brain, will think of a way out of here," you say. "No one ties up Donald Trump unless they’re wearing six inch heels and charge by the hour, okay?"
 
--  Tisk, tisk, Trump. Tisk, tisk. You've played right into my hands. It’s been me all along: Narrator Guy! The greatest ISIS operative who ever lived!
+-  Tisk, tisk, Trump. You've played right into my hands. It’s been me all along: Narrator Guy! The greatest ISIS operative who ever lived!
 
-And I have some more bad news for you. The guy I just killed? An undercover FBI agent sent to catch me. The thing is, your fingerprints are on the gun, as well as the bomb I have here in my Hunny Pot. And the police will be here soon enough.
+And I have some more bad news for you. The guy I just killed? An undercover FBI agent sent to catch me. And the police will be here soon enough. I can only imagine the headlines now. TRUMP LOSES ELECTION, WINS ONE WAY TICKET TO JAIL!
 ->5SmallRoomD1
 
 ===5SmallRoomD1===
-Oh Donald, I knew I could count on your relentless bravado and complete lack of self-awareness. Well done!
+Oh Donald, I knew I could count on your self-obsessed bravado and complete lack of self-awareness to just absorb whatever I told you and make decisions without thinking. Well done!
 
 	*"I'm gonna sue that smirk off your face."
 SMACK!
@@ -749,7 +727,7 @@ SMACK!
 ->5betrayalquestions
 
 ===5betrayalquestions===
-{betrayal_questions >= 2: I'm done talking to you, Trump. -> 5smallroomE }
+{betrayal_questions >= 2: I'm done talking, Trump. It's time for action. -> 5smallroomE }
 
 	*"Why would you betray me?"
 ~betrayal_questions++
@@ -763,16 +741,18 @@ Easy, Mr. Trump. You are everything I despise. A fat, ignorant, entitled America
 
 	*"I was gonna give you shrimp."
 ~betrayal_questions++
-"That hurts, Narrator Guy," you say. "I was gonna invite you back to the old Trump Tower after all this was over -- we've got these jumbo shrimp -- you would die for these shrimp."
+"That hurts, Narrator Guy," you say. "I was gonna invite you back to the old Trump Tower after all this was over. We've got these jumbo shrimp -- you would die for these shrimp."
 
 -> 5betrayalquestions
 
-    *"You think you're gonna get away with this? You’re not."
+    *"You're not going to get away with this."
 ~betrayal_questions++
 
-So you think, Mr. Trump. But I know your weaknesses, and I've played to them perfectly. 
+SMACK!
+
+So you think, Trump. I've exploited your weaknesses perfectly. 
 		**"What weaknesses?
-What weaknesses? Your endless lies. Your greed. Your hubris. 
+Your endless lies. Your greed. Your hubris. 
 
 "Those are weaknesses? Wow -- you would not make it in the business world, Narrator Guy. Stick to writing, if that's even a real job."
 
@@ -781,20 +761,17 @@ What weaknesses? Your endless lies. Your greed. Your hubris.
 		**"I'll show you weak!"
 You struggle against the ropes.
 
-If only your body got the kind workout your big, fat mouth gets every day, Mr. Trump?
+If only your body got the workout your big, fat mouth gets every day, Mr. Trump?
 
-"Wow… That was, ya know, PRETTY rude, Narrator Guy. And I've been very nice to you up until now.."
+"Wow… That was pretty rude, Narrator Guy. And I've been very nice to you up until now.."
 
 -> 5betrayalquestions
-
-	*"I've got nothing to say to you, Narrator Guy."
-->5smallroomE
 
 
 ===5smallroomE===
 Me and my buddies, we're going to destroy an American landmark, and you are going to take the fall.
-	*"Doubtful."
-	*"Nah."
+	*"Unlikely."
+	*"Wrong."
 
 - This is goodbye, Mr. Trump.
 
@@ -804,7 +781,7 @@ Just sit tight, Trump. One of my associates will be along shortly. And let’s j
 
 It's my story now, Trump. Narrate this!
 
-A stiff kick straight at Little Donald. You double over as the door is shut and your story ends...
+A stiff kick straight at Little Donald. You double over as the door slams shut...
 
     *[Continue]
 
@@ -814,9 +791,7 @@ A stiff kick straight at Little Donald. You double over as the door is shut and 
 #PlayMusic_6DonaldBetrayed
 
 	*"Uh, hello?"
-Trump.
 	*"Anyone there?"
-Trump.
 
 - "I might be in trouble..."
 
@@ -828,7 +803,7 @@ Donald.
 
 "It's just me," you say. "Okay, gotta get out of this chair!"
 
-	*[Flex to break rope]
+	*[Flex muscles to break rope]
 "In my mind, I broke free like that big green guy."
 
 	*[Struggle against rope]
@@ -846,7 +821,7 @@ Donald.
 	*"Not possible."
 "No -- not even unlikely. Impossible."
 
-- "I choose my own reality. I AM reality."
+- "I choose my own reality."
 
 	*"What do I do? Come on, Donald!"
 	*"Come on, Trump. You got this."
@@ -860,7 +835,7 @@ Donald.
 
 - "Come on, brain. Think of a way out. I've gotta stop Narrator Guy, no -- Terrorist Guy -- from blowing up Disney World."
 
-- You already have, Donald. You already have.
+- You already have, Donald.
 
 -> 6DonaldBetrayed1
 
@@ -869,15 +844,13 @@ Donald.
 	*"Who said that?"
 	*"Hey, you sound like me!"
 
-- I'm you, Donald. Or a part of you. I've been... elsewhere for a while. You...abandoned me, Donald. Long ago.
+- I'm you, Donald. Or a part of you. I've been... elsewhere for a while. You...abandoned me, Donald. Long ago. I'm your Super Ego, Donald. In charge of your ethics and morality. You thought you didn't need me.
 
 “Hey wait a minute," you say. "I know that judgmental tone! You're that whaddaya-call-it, my Jiminy Cricket. Didn't I kill you?”
 
-You just suppressed me. I'm your Super Ego, Donald. In charge of your ethics and morality. You thought you didn't need me.
+You just suppressed me. I've been a little busy battling your inner demons for a few decades, and fighting my way out of that nightmarish pit of horrors that is our subconscious. At long last, your moment of crisis gave me the chance to break through, because you need me. 
 
-- But I can help you, Donald.
-
-Let me tell your story.
+I can help you finish your story of defeating ISIS.
 
 But first, you have to help yourself, which you're good at -- maybe the best at.
 	*"Maybe the best?"
@@ -895,20 +868,20 @@ You've got to escape, Donald. And you have the power within you.
 	* "Yeah, win."
 - And how do you win?
 
-*"By… shaping reality."
-*"Yeah, that one."
+*"By shaping reality."
+*"Yeah, that one sounds good."
 
 - Think about it, Donald. As a kid, you always thought big, right?
 
 "Yeah -- that's in Art of the Deal!"
 
-I know. Great book.
+I know, Donald. Great book.
 
-"Great book. Close to the bible," you say. "Better endorsements though."
+"Second only to the bible," you say. "Better endorsements though."
 
 Donald -- when you were a kid, when the world wasn't going your way -- what did you do?
 
-	*"I daydreamed."
+	*"I shouted until I got my way."
 	*"I played make-believe."
 
 - So do it now, Donald. Think of a way out. Bend reality to your will -- with your amazing words.
@@ -947,10 +920,10 @@ You stand. Confident. Virile. Fearless.
 
 - Unstoppable.
 
-	*[Open Door]
-"The door opens," you say.
+	*[Order door to open]
+"Open for me, door," you say. "Now!"
 
-The door opens, as it should.
+The door obeys and opens for you.
 	*[Roundhouse Kick the Door]
 BOOM. Just like Van Damme.
 "Take THAT, door!"
@@ -965,7 +938,7 @@ Trump 1, Door 0.
 
 - That's the spirit, Donald -- but beware. If you have the power to bend reality, so too does Terrorist Guy. He is powerful, Donald, and growing more powerful by the minute.
 
-You have to stop him! I believe in you, Donald. I believe in you.
+But I believe in you, Donald. I believe in you.
 
 "I'm ready," you say. "Let's do this!"
 
@@ -991,7 +964,7 @@ Finally you reach the door to Main Street U.S.A.
 "Let's do this. It's Trump Time™! And that’s trademarked, by the way. If anyone else tries to use Trump Time™ I will sue you into oblivion, okay? Okay. Where was I? Right: It’s Trump Time™!"
 
 	*[Proclaim Heroism]
-"I, Donald Trump, do solemnly swear that when I find you, Terrorist Guy, I am going to kick your Terrorist Ass. Because I am great. I’ve got so much of this stuff that I’m donating some to the country. In summary, Trump. Greatness."
+"I, Donald Trump, do solemnly swear that when I find you, Terrorist Guy, I am going to kick your Terrorist Ass. Because I am great. I’ve got so much of this stuff that I’m donating some to the country. In summary, Trump oozes greatness."
 
 - Let's do this, Donald. Let's do this!
 
@@ -1003,107 +976,93 @@ Finally you reach the door to Main Street U.S.A.
 
 ===7showdownA===
 
-Main Street U.S.A. bustles with activity -- horses taking dumps, yes, but also children pointing at candy shops, parents staring at cell phones, parade floats teeming with waving mascots, children pointing at horses taking dumps, cheering, the smell of burnt sugar and anticipation.
+Main Street U.S.A. bustles with activity: children pointing at candy shops, parents staring at cell phones, tourists cheering as parade floats teeming with waving mascots move down the street. The smell of burnt sugar, soiled diapers, and anticipation fill the air.
 
-At the far end of the street, perfectly framed by two elegant lampposts, you see Cinderella's Castle. A parade float heads towards you. On its bow stands Terrorist Guy in the Winnie the Pooh costume.
+At the far end of the street, perfectly framed by two elegant lampposts, you see Cinderella's Castle. On the front of the lead float stands Winnie the Pooh. Your eyes gravitate to the "Hunny" pot.
 
-Your eyes gravitate to the pot of "Hunny" beside him. Hunny. Pot.
-
-Donald -- It’s THE BOMB! You've got to stop him from detonating that bomb! Hurry!
+Donald -- there's Terrorist Guy! You've got to stop him from detonating that bomb! Hurry!
 
 	*[Commandeer Horse]
-You leap onto the nearest horse, and with a vigorous slap on its buttocks, gallops towards your destiny.
+You leap onto the nearest horse, and with a vigorous slap on its buttocks, gallops towards the parade.
 
 	*[Sprint like That Jamaican Guy]
-You, the one and only Trump, sprint down Main Street U.S.A faster than that amateur, Usain Bolt, towards the float… 
-Towards your destiny.
+You, the one and only Trump, sprint down Main Street U.S.A faster than that amateur, Usain Bolt, towards the parade… 
 
-- The parade grinds to a halt.
+- Towards your destiny.
 
-"Oh my god," a little boy screams. "It's Winnie the Pooh! He's my favorite!"
+	*"STOP THE PARADE!"
+	*[Stand in front of parade float.]
 
-A man in a Make America Great Again hat points. "Hey… It’s Donald the Trump! He’s my favorite!"
-
-	*[Continue]
+- The crowd boos as the parade grinds to a halt.
 
 -> 7_confrontation
 
 ===7_confrontation===
-Terrorist Guy stands at the bow of the float, he aggressively points a fuzzy mascot hand at you. 
+Terrorist Guy points at you as several children whisper to their moms that they want to be bears when they grow up.
 
-"You think you can defeat me?" he snarls. "You have no power over me. I went to every one of your rallies. I read the Art of the Deal -- twice! I have studied your every move for years. I know you, Donald Trump. I know what you’re going to do even before you do. My reality-bending skills are unparalleled!"
+"Holy crap," someone yells. "It's Donald Trump!" 
 
-He turns to the crowd.
+Terrorist Guy waves at you. "Ladies and gentlemen. Are you ready for a show?"
 
-"Do you love me?"
+The crowd screams and hollers!
 
-The crowd cheers! Several small children whisper to their moms that they want to be bears when they grow up.
-
-    *[Continue]
-
-- "Do you see, Trump?" Terrorist Guy asks. "I am a master of propaganda. I know how to whip a crowd into a frenzy. You can't defeat me!"
-
-“That's where you're wrong,” you declare, ripples of truth causing the burgeoning crowd to gasp. "I know exactly how to destroy you, ISIS."
-
-"I doubt that," Terrorist Guy replies. " Because I know your weakness."
-
-- Brace yourself, Donald! He's gonna try to get you off your game!
+- Brace yourself, Donald! You have to defeat him!
 
 -> 7Terrorist_Guy_Wordsults
 
 ===7Terrorist_Guy_Wordsults===
 
-"You're overrated, Trump," Terrorist Guy shouts. "And you know it."
+Terrorist Guy pulls out his phone and starts tweeting @realDonaldTrump.
 
-	*"Nope."
-	*"Untrue."
+"@realDonaldTrump is overrated loser."
+
+Oh no, Donald. He's tweeting. You've got to resist!
+
+But you immediatly brandish your smartphone to reply.
+
+	*"@TerroristGuy -- Nope."
+	*"@TerroristGuy -- Untrue."
 
 - The crowd leans in with interest.
 
-"We use you in recruiting videos, Trump."
+"ISIS uses you in recruiting videos, Trump."
 
-	*"Flattered."
-	*"You owe me money, then."
+	*"@TerroristGuy -- Who wouldn't?."
+	*"@TerroristGuy -- You owe me money, then."
 
 - Nicely deflected, Trump! 
 
-Several children ask their mothers if they can dress up as Donald Trump next Halloween.
-
-Terrorist Guy shakes his head. "Do you know what all the papers are saying?" he asks, pointing to the crowd. "What everyone is saying now that you lost the election? You'll be one of history's greatest jokes."
-	*"I won."
-	*"Yeah, I won."
+"You lost the election in a landslide, Trump," Terrorist Guy says. "People are saying you'll be one of history's greatest jokes."
+	*"@TerroristGuy -- I won."
+	*"@TerroristGuy -- Totally false. You lost."
 
 - The crowd snickers, wondering if this is a new reality TV show. Trump Vs. Terrorism.
 
-Terrorist Guy pulls out his phone and starts tweeting @realDonaldTrump.
-
 "You’re a phony, @realDonaldTrump! Your fortune -- the thing you’ve built your entire reputation on? You didn't build that. Your father did," Terrorist Guy tweets.
 
-	*"I built it!"
-	*"Lies!"
+	*"@TerroristGuy -- False, I built it."
+	*"@TerroristGuy -- Another lying terrorist."
 
 - "@realDonaldTrump, you'd have made more money if you'd put your father's million in an unmanaged index fund."
-	*"Prove it."
-	*"You know nothing, Terrorist Guy."
+	*"@TerroristGuy -- Prove it."
+	*"@TerroristGuy -- You know nothing, Terrorist Guy."
 
 - "You're a fraud," Terrorist Guy tweets. "A terrible businessman.@realDonaldTrump #notabillionaire."
-*"Hey, stop it."
-*"That's not nice."
+*"@TerroristGuy -- Nasty Terrorist, big surprise."
+*"@TerroristGuy -- That's not nice. Learn some manners."
 
 - "You'd be nothing without your dad, @realDonaldTrump #notabillionaire #inyourfathersshadow."
-	*Hey -- quit it."
-	*"I"m getting mad."
+	*@TerroristGuy -- Try getting into Trump Tower now, big shot. You're banned."
+	*"@TerroristGuy -- Wrong again. You're wrong and you know it."
 
-- Terrorist Guy grins. "You're not a creator, @realDonaldTrump. You're a charlatan, you orange, toupee-wearing Dough Boy. And deep inside, when you sleep at night -- you KNOW IT!
+- Stop tweeting, Donald! You. Have. To. Stop. Tweeting! That's your id's domain!
 
-	*"THAT'S NOT TRUE!"
-	*"I'M GONNA RIP YOU APART!"
+Terrorist Guy grins. "@realDonaldTrump is a charlatan, a toupee-wearing orange Dough Boy. And deep inside, when you sleep at night -- you KNOW IT!
 
-- No, Donald! Get off Twitter! He's trying to trap you!  Resist, Donald. RESIST!
+	*"@TerroristGuy -- YOU'RE DONE!"
+	*"@TerroristGuy -- I'M GONNA RIP YOU APART!"
 
-But you cannot resist a Twitter war. It is your kryptonite.
-
-You scream, running at Terrorist Guy with full force.
+- You throw down your smart phone and crash jump onto the float to beat the living sack out of Terrorist Guy.
 
     *[Continue]
 
@@ -1111,22 +1070,20 @@ You scream, running at Terrorist Guy with full force.
 
 ===7Fisticuffs===
 
-    {You charge!|{~Missed!|Nothing but air!|Weak sauce!|He's too fast. -> 7Terrorist_Guy_Attacks}}
-    Terrorist Guy {dodges|laughs|moons you|escapes narrowly|hides behind  fat children}. <>
+    {You charge!|{~Missed!|Nothing but air!|Weak sauce!|He dodges! -> 7Terrorist_Guy_Attacks}}
+    Terrorist Guy {dodges|laughs|smirks|escapes narrowly|hides behind fat children}. <>
     {!He slaps you. "You're weak, Trump!"| He smacks you. "That the best you can do, Trump?"| He pummels you. "You got nothing, Trump!" | He knocks you down.}
-   	*  [Leftist hook]     -> 7Fisticuffs
-    	*  [Trump Steak Hook] -> 7Fisticuffs
+   	    *  [Leftist hook]     -> 7Fisticuffs
     	*  [Super Ego Upper-Cut] -> 7Fisticuffs
     	*  [Double -- no -- Triple Punch]    -> 7Fisticuffs
     	*  [Trump $2.99 Grand Slam!]     -> 7Fisticuffs
-    	*  [] Terrorist Guy attacks you with lightning-like fury. You fall to the ground, panting and bloodied and, for the first time in your life, afraid.
+    	*  [] . -> 7Terrorist_Guy_Attacks
 
--> 7Attack1
-
--> 7Terrorist_Guy_Attacks
 
 ===7Terrorist_Guy_Attacks===
-Terrorist Guy snarls. "Now I'm gonna send you your WORST FEARS!"
+Terrorist Guy attacks you with lightning-like fury. You fall to the ground, panting and bloodied and, for the first time in your life, afraid
+
+He screams, "I HAVE BECOME ALL POWERFUL!"
 
 "I'm scared of Batman," a small girl says.
 
@@ -1134,17 +1091,10 @@ Terrorist Guy snarls. "Now I'm gonna send you your WORST FEARS!"
 
 "Hey everybody," Terrorist Guy shouts. "What's Donald Trump's favorite chapter of any book?"
 
-The crowd's collective expression is puzzled.
+The crowd all responds, "Art of the Deal!"
 
-    *[Continue]
-    
-->7Attack1
 
-===7Attack1===
-
-"Chapter 11!" Terrorist Guy says, throwing a legion of bankruptcy lawyers at you!
-
-The lawyers march in unison, branding their identical briefcases, their intense green eyes staring through your suit, and into your very soul.
+"No, Chapter 11!" Terrorist Guy says. "TAKE THIS!" He conjures up  a legion of bankruptcy lawyers who march towards you in unison, branding their identical briefcases, their intense green eyes staring through your suit, and into your very soul.
 
 On no, Donald. Not again! Remember the casinos. Our Taj Mahal, The Castle, The Plaza, the -- well, most of our businesses! Think fast! 
 
@@ -1158,9 +1108,9 @@ Terrorist Guy howls in laughter. "You might be morally bankrupt," he says. "But 
 You immediately call your team of lawyers and countersue on the grounds of defamation, famine, deconstruction, and other lawyer-sounding words, but Twitter quickly obliterates your attempt with research and quippy one-liners.
 
 	*[Shed Company]
-You attempt to shed your shell company -- in this case your literal own skin -- but it's painful and you decide against it.
+You attempt to shed your shell company -- in this case your literal own skin -- but it's painful so you're forced to stop.
 
-- The lawsuit increases your blood pressure from a perfect 110/70 to an astounding 150/100. You've always hated blood pressure monitoring because the bigger numbers aren't better, and make a mental note to sue the American Heart Association later.
+- Terrorist Guy's lawsuit increases your blood pressure from a perfect 110/70 to an astounding 150/100. You've always hated blood pressure monitoring because the bigger numbers aren't better, and make a mental note to sue the American Heart Association later.
 
 ->7Attack2
 
@@ -1169,17 +1119,17 @@ You attempt to shed your shell company -- in this case your literal own skin -- 
 The crowd steps back as Terrorist Guy conjures a hundred of illegal immigrants, who sprint towards you with reckless abandon.
 
 	*[Build Security Wall]
-The wall stops a few immigrants, but many of them arrive at you legally and smack you across the head.
+The wall stops a few immigrants, but many of them arrive at you as if it were air, legally arriving on the other side and smacking you across the head.
 
 	*[Use Media as Body Shield]
-Briefly, the media defends your labeling of Mexican immigrants as "rapists and murderers," but eventually they find their spine and step aside.
+Briefly, the media defends your labeling of Mexican immigrants as "rapists and murderers" as locker room conversation, but eventually they find their spine and step aside.
 
 	*[Insult as Freeloaders]
-You start to criticize the immigrants until you realize that you rely on a steady stream of immigrant for your wives, not to mention busboys and countless other Trump company jobs.
+You start to criticize the immigrants until you realize that you rely on a steady stream of immigrant for your wives, busboys, and construction workers.
 
 - You stagger back, your perfect nose bloody but still regal.
 
-"Nicely done, Trump," screams Terrorist Guy. "But I know the one thing you cannot resist!"
+"It'd over, Trump," screams Terrorist Guy. "You see, I told all my ISIS buddies back home that I had a secret plan to defeat YOU!"
 
 ->7MagicMirror
 
@@ -1187,7 +1137,7 @@ You start to criticize the immigrants until you realize that you rely on a stead
 
 Terrorist Guy holds up a gigantic magic mirror.
 
-	*[Look into Mirror]
+	*[Gaze into Mirror]
 
 You gaze into the mirror.
 	*[Adjust Hair in Mirror]
@@ -1198,16 +1148,14 @@ You snap-point at yourself in the mirror.
 
 - "Not too shabby," you say. "Hey… What's… What's HAPPENING?"
 
-For the first time since you were a child, you see yourself as many others see you. You think back to all the lawsuits, the bankruptcies, the multiple marriages. You stagger back, bloody, weak. It is too daunting, this image of yourself, this reflection of who you are and how you truly appear to millions of people worldwide.
+For the first time since you were a child, you see yourself as many others see you. You think back to all the lawsuits, the bankruptcies, the multiple marriages. You stagger back, bloody, weak, dizzy. It's too daunting, this reflection of how you truly appear to millions of people worldwide.
 
 You fall to the ground... Sad. Tired. A little gassy. Defeated.
 
 ->7Trump_injured
 
 ===7Trump_injured===
-Terrorist Guy seems to be able to predict your every move, Donald. How are we gonna defeat him? 
-
-I've got it. THIS is YOUR world, Donald Trump! You know what will heal you? Whatever you BELIEVE will heal you.
+Get up, Donald. GET UP! THIS is YOUR world, Donald Trump! This is YOUR reality! Do you know what will heal you? Whatever you BELIEVE will heal you.
 	*[Pull out Doctor's Letter]
 You pull out the letter from your doctor. You keep it in your breast pocket for just such an emergency.
 
@@ -1222,29 +1170,14 @@ Eating the Trump Steak is like Popeye downing a can of spinach, only better, bec
 
 You devour the last of the steak, gristle and all. You flex your arms and your mighty biceps rip straight through your suit jacket. But you don’t care, because you’re rich as f@$* and you can buy another one.
 
-	*[Call Melania Signal]
-An image of a Stuart Weitzman high-heel shoots into the sky out of your toupee.
-
-Moments later, Melania appears, kissing you lightly on the cheek. "I believe in you, Donnie," she says. "I believe in us."
-
-It’s super effective.
-
 -  Now you’re ready to fight, but this time on your own terms.
 
    	*"This ends now, Terrorist Guy!"
 	*"You'll never defeat me, Terrorist Guy!"
 
-- Terrorist Guy laughs. "You're weak, Donald. I see it now. Low energy. Predictable -- you can't defeat me! You don’t have the stamina. The stamina. I said you don’t have the stamina!"
+-  Terrorist Guy lifts the Hunny Pot over his head.
 
-The Winnie the Pooh outfit suddenly dissolves, and in its place is a massive Trump mascot. Big head, even bigger toupee. Still small hands, though.
-
-Terrorist Guy lifts up the Hunny Pot over his head.
-
-"Oh my god, it's another Trump!" someone from the crowd screams.
-
-Equal-parts jeers and cheers erupt from the crowd as you, regular-sized Donald Trump, stand face-to-face with Mascot Trump.
-
-- "Make your move, Donald," Terrorist Guy says. "Make. Your. Move -- If you think you’re Trump enough."
+"Make your move, Donald," Terrorist Guy says. "Make. Your. Move."
 
 ->7Climax
 
@@ -1258,26 +1191,26 @@ Equal-parts jeers and cheers erupt from the crowd as you, regular-sized Donald T
 	+ {summon <=3 } [Summon American]
 ->7SummonAmerican
 
-    * {climax_fight >=2 } [Super Duper Declare Brilliance]->Super_Duper_Proclaim_Brilliance 
+    * {climax_fight >=3 } [Super Duper Declare Brilliance]->Super_Duper_Proclaim_Brilliance 
 
 
 ===7Isis_insult===
 "Here's your problem, ISIS," you say.
 
-* "You've got thin skin."
-"I mean, come on," you say. "No one can draw your prophet? Trust me -- if they're talking about you, it's good. I should know. So grow a pair, you terrorist loser."
-~climax_fight++
-~insult++
--> 7Climax
-
 	*"Your location is terrible."
-"I mean, the sand. So much sand," you say. "Come on. Too much land, not enough water. It's a losing investment."
+"I mean, the sand. So much sand," you say. "Come on. Too much land, not enough water. It's a 'loser' investment."
 ~climax_fight++
 ~insult++
 -> 7Climax
 
-	*"Your business plan is trash."
+	*"Your business plan is ridiculous."
 "I mean, suicide bombs. It’s not a sustainable business plan. At least wait until they’re about to retire, THEN maybe blow them up. Save on the severance package."
+~climax_fight++
+~insult++
+-> 7Climax
+
+*"Your Twitter account is pathetic."
+"I get more retweets when I eat a taco bowl," you say. "And your hashtags are weak and boring."
 ~climax_fight++
 ~insult++
 -> 7Climax
@@ -1289,7 +1222,7 @@ Equal-parts jeers and cheers erupt from the crowd as you, regular-sized Donald T
 You raise your hands to the sky. "I call forth…"
 
 	* "An Old Man!"
-The Old Man you definitely didn't almost scare to death appears. Thinking that Terrorist Guy is Death himself, the Old Man pulls out a pistol and shoots him in the face.
+The Old Man appears. "Damn you, ISIS," he yells, pulls out a pistol, and shoots Terrorist Guy in the face.
 
 OLD MAN FACE SHOT!
 
@@ -1310,9 +1243,9 @@ PREGNANT WOMAN SPITFIRE! BAM!
 -> 7Climax
 
 	*"A Four Year Old Child!"
-The Four Year Old Child you interrogated -- ahem, asked very nicely for information -- appears.
+The Four Year Old Child appears, pointing her finger squarely at Terrorist Guy.
 
-"You smell like a butt, ISIS," she says. "You have no friends because you blow all of them up. Also they told me you’re stupid and have a dumb jerk face."
+"You smell like dumb butt, terror guy!"
 
 FOUR YEAR OLD SLAM!
 
@@ -1328,26 +1261,27 @@ Terrorist Guy laughs, eyeing the bomb in the Hunny Pot beside him.
 -> 7Climax
 
 ===Super_Duper_Proclaim_Brilliance===
+
 "I am the single greatest man in all of human history," you say. "And I can prove it."
 
-You hop on a nearby white stallion and rear it back. As you tear off your toupee, the sun catches your bald head, and it shines like a supernova. This is your moment. It is time to unleash your secret weapon to defeat ISIS. You were hoping to save this for when you assumed the Presidency, but if Disney World falls, so does the world.
+You hop on a nearby white stallion and rear it back. As you tear off your toupee, the sun catches your bald head, and it shines like a supernova. This is your moment. It is time to unleash your secret weapon to defeat ISIS.
 
-Quoting yourself gives you strength, Donald. When people talk about you, you win -- even if you lose. Because you control your own reality.
+Quoting yourself.
 
-		* [God Boast]
-	"I will be the greatest jobs president that God ever created."
+That's brilliant, Donald! When you talk about yourself, you gain so much power!
 
 - Terrorist Guy narrows his eyes. "What are you doing? Why are you quoting yourself?"
 
 	*[State Misuse of Word Beauty]
 	“The beauty of me is that I’m very rich.”
 	“You know, it really doesn’t matter what the media write as long as you’ve got a young, and beautiful, piece of ass.” 
-	* [Boast Attractiveness]
+
+	* [Proclaim Attractiveness]
 “All of the women on The Apprentice flirted with me – consciously or unconsciously. That’s to be expected.”
 
-- Glancing around wildly, Terrorist Guy takes a step back. "Why -- why are these women applauding?"
+- Glancing around wildly, Terrorist Guy takes a step back. "Why -- why are these women applauding? Did you hear what he just said?"
 
-You point at him.
+You start to glow. You feel a hundred feet tall! 
 
 	* [Compliment Your Body]
 “My fingers are long and beautiful, as, it has been well documented, are various other parts of my body.”
@@ -1356,21 +1290,22 @@ You point at him.
 	
 - The crowd hoots and hollers. Terrorist Guy looks frenzied. "How are you still standing, Trump?" he screams. "I don't understand!"
 
-Finish him, Donald!
+Finish him, Donald! FINISH HIM!
 
 * [Make Provocative Family Comment]
 “I’ve said if Ivanka weren’t my daughter, perhaps I’d be dating her.”
-	* [Violence Boast]
-"I could stand in the middle of 5th Avenue and shoot somebody," you say. "And I wouldn't lose voters."
 
-- Suddenly, the ground shakes. The heavens rend. A light appears from your head, brighter than a thousand suns and more powerful than a million nuclear bomb. Terrorist Guy attempts to shield his eyes, but the light blinds him instantly. 
+		* [Boast about Divine Abilities]
+	"I will be the greatest jobs president that God ever created."
+
+- The ground shakes. The heavens rend. A light appears from your head, brighter than a thousand suns and more powerful than a million nuclear bomb. Terrorist Guy attempts to shield his eyes, but the light blinds him instantly. 
 
 "I can't see," he wails. "Your ego -- it's too bright. It's too bright. I'm blind. Blind!" Terrorist Guy begins to sob. "What… What have you done to me?"
 
-	*"You're fired."
-	"You've been Trumped."
+	*"You're fired!"
+	*"You. Are. Fired!"
 
-- The crowd cheers as Terrorist Guy screams up into the biased sky.
+- The crowd cheers as Terrorist Guy's screams echo into the biased blue sky.
 
 -> 7_Terrorist_Guy_Defeated
 
@@ -1393,18 +1328,16 @@ You hand him a fifty.
 He says, “Wait, stop! I’m from Cleveland!”
 
 - You stand tall, confident, virile, Trump.
-
-    *[Continue]
     
 "You're safe now, world," you say to the crowd, arms outstretched. "Thanks to me!"
+
+The crowd chants your name over and over.
+
+    *[Bask in Adoration]
 
 ->8over
 
 ===8over===
-
-It’s over. Disney World has been saved by you, Donald Trump, soon-to-be President of the United States and the greatest man in human history.
-
-The crowd cheers. 
 
 A horse takes a celebratory dump.
 
@@ -1455,11 +1388,11 @@ You throw your arms wide and close your eyes toward the sun. You spin slowly in 
 
 "Thanks Jiminy," you say. "You're not so bad -- sorry for trying to kill you."
 
-The ground shakes.
+Suddenly, the ground starts to shakes.
 
-The sun falters.
+The sun flickers, falters.
 
-
+Oh no, Donald! This can't be happening!
 
     *"...Wait, what's happening?"
     *"Something's...wrong..."
@@ -1498,21 +1431,17 @@ You dream you went toe-to-toe against ISIS and won.
 The newspaper reads: HRC Trumps Trump
 
 - You stare at the newspaper for a moment.
-	*[Trump Newspaper]
+	*[Change Headline]
 
-The newspaper now reads: Trump Trumps World.
+The headline now reads: Trump Trumps World.
 
 You smile. Even when you’ve lost, you’ve won.
 
-You didn't want the presidency. 
+You didn't want the presidency. You never did.
 
 You wanted the spotlight.
 
-And you got it.
-
-You proved that you can say whatever you want.
-
-No matter how many times you spin the roulette wheel, your number comes up.
+And you got what you wanted.
 
 Because you are Donald J. Trump.
 
@@ -1527,23 +1456,31 @@ Thank you for playing, and we hope you enjoyed Donald Trump Saves the World.
 
 Please share this story if you liked it. If you didn't -- why on earth did you keep reading?
 
-Follow us on twitter @daniel_homan and @ConcernedCitizenStories
+Follow me on twitter @daniel_homan
+
 Support us at Patreon.
-Sign up for the mailing list here:
+Sign up for the mailing list here: www.dannyhoman.com 
 Share this story here.
 
 And remember -- we only have one reality that we know of, so please vote on November 8th.
 
 
-    *[Brief Authorial Rant]
+    *[Access Brief Authorial Rant]
     
-Hey all -- Danny here, writer of Donald Trump Saves the World. I started writing this game to a) learn Ink b) make my dad laugh. Let's talk about the second one.
+Hey all -- Danny here. First, thanks to Connor Thomas Cleary (www.connorthomascleary.com), Zach Bohn, and Raison Varner (www.soundcloud.com/rvarner) for their awesome work on Donald Trump Saves the World.
+
+Also, thanks to Ink, which is an awesome narrative engine. Try it at www.inklestudios.com/ink/
+
+So, about this story. I started writing it to a) learn Ink b) make my dad laugh. Let's talk about the second one.
 
 Whew! What an election. What an adventure! If you smirked/laughed/rolled your eyes once during this story, then I'll call it a success. I wrote this so that my dad could have a bit of a breather. Comedy, ya know? Plus, it seemed entirely plausible that Donald Trump's plan to take out ISIS involved going undercover as a Disney Mascot.
 
-Only other thing to mention -- if you're reading this BEFORE the election, please vote and get your friends to vote. If you're reading this AFTER the election...how are things?
+Only other thing to mention -- if you're reading this BEFORE the election, please vote and get your friends to vote. If you're reading this AFTER the election...how are things? Still good?
 
-Also, this game was free, so a) share it, please b) do something nice for something today as payment -- donate to a charity, volunteer, give your significant other a massage. The choice is yours!
+Also, this game was free, so if you enjoyed it:
+
+a) share it, please!
+b) do something nice for something today as payment, like donate to a charity, volunteer, give your significant other a massage, or help an old lady cross the street. The choice is yours!
 
 Thanks for playing!
 
@@ -1568,6 +1505,7 @@ Thanks for playing. But unfortunately you're just not Trump enough to save the w
     ->1A
     	*[Um uh, no] 
     ->end
+
 
 
 
