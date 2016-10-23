@@ -58,7 +58,7 @@ You are Donald Trump.
 Your hand rests on your noble brow as your eyes glance around your office, the sun illuminating a room absolutely crammed with the spoils of success -- from a career in real estate, the United States Football League, casinos, a steak empire, Trump airline, golf courses, reality TV stardom, and multiple bankruptcies.
 
 But in less than two short months, you will take the oval office. A daunting proposition.
-What does a governmental bankruptcy even look like, you wonder.
+Can the U.S. government even file for Chapter 11, you wonder.
     *[Continue]
 
 -> 1A2
