@@ -16,6 +16,9 @@ public class AudioClipDatabase : MonoSingleton<AudioClipDatabase>
     public AudioClip Part_7;
     public AudioClip Part_7_END;
 
+    //Variables
+    public GameObject musicAudio;
+
 	public void PlayActionChoice()
     {
 		PlaySound(ActionChoice);
@@ -33,23 +36,47 @@ public class AudioClipDatabase : MonoSingleton<AudioClipDatabase>
 
     public void PlayPart1A()
     {
-        PlaySound(Part_1A);
+        PlayMusic(Part_1A);
     }
     public void PlayPart2D()
     {
-        PlaySound(Part_2D);
+        PlayMusic(Part_2D);
     }
     public void PlayPart6()
     {
-        PlaySound(Part_6);
+        PlayMusic(Part_6);
     }
     public void PlayPart7()
     {
-        PlaySound(Part_7);
+        PlayMusic(Part_7);
     }
     public void PlayPart7END()
     {
-        PlaySound(Part_7_END);
+        PlayMusic(Part_7_END);
+    }
+
+    private void PlayMusic(AudioClip audioClip)
+    {
+        //Debug.Log("AudioClipDatabase:PlayMusic");
+
+        AudioSource audioSource;
+
+        if (musicAudio == null)
+        {
+            musicAudio = new GameObject("Music: " + audioClip.name); // create the temp object
+            musicAudio.transform.SetParent(transform);
+            audioSource = musicAudio.AddComponent<AudioSource>(); // add an audio source
+            audioSource.clip = audioClip; // define the clip
+            audioSource.spatialBlend = 0;
+            audioSource.Play(); // start the sound
+        }
+        else
+        {
+            //Debug.Log("Now Fading to new track");
+            audioSource = musicAudio.GetComponent<AudioSource>();
+            FadingAudioSource fadingAudioSource = audioSource.GetComponent<FadingAudioSource>();
+            fadingAudioSource.Fade(audioClip, 1, true);
+        }
     }
 
     private void PlaySound (AudioClip audioClip, float volume = 1)
