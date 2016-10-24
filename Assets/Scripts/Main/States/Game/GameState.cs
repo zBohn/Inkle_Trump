@@ -83,6 +83,8 @@ public class GameState : MainState {
 
     IEnumerator OnAdvanceStory ()
     {
+        //story.ChoosePathString("5smallroom"); DEBUG to get straight to a Knot
+
         if (story.canContinue)
         {
 			ChoiceGroupView choiceView = null;
@@ -123,8 +125,10 @@ public class GameState : MainState {
     {
         if (story.currentTags.Contains("PlayMusic_1A"))
             AudioClipDatabase.Instance.PlayPart1A();
-        if (story.currentTags.Contains("PlayMusic_2D"))
+        if (story.currentTags.Contains("PlayMusic_2D1"))
             AudioClipDatabase.Instance.PlayPart2D();
+        if (story.currentTags.Contains("PlayMusic_5smallroom"))
+            AudioClipDatabase.Instance.PlayPart5();
         if (story.currentTags.Contains("PlayMusic_6DonaldBetrayed"))
             AudioClipDatabase.Instance.PlayPart6();
         if (story.currentTags.Contains("PlayMusic_7showdown"))

@@ -12,6 +12,7 @@ public class AudioClipDatabase : MonoSingleton<AudioClipDatabase>
     //MUSIC
     public AudioClip Part_1A;
     public AudioClip Part_2D;
+    public AudioClip Part_5;
     public AudioClip Part_6;
     public AudioClip Part_7;
     public AudioClip Part_7_END;
@@ -42,9 +43,13 @@ public class AudioClipDatabase : MonoSingleton<AudioClipDatabase>
     {
         PlayMusic(Part_2D);
     }
+    public void PlayPart5()
+    {
+        PlayMusic(Part_5);
+    }
     public void PlayPart6()
     {
-        PlayMusic(Part_6);
+        //PlayMusic(Part_6);
     }
     public void PlayPart7()
     {
