@@ -72,7 +72,7 @@ Hi, Mr. Trump! Hey -- over here. It's me.
 
 - For a moment, you thought the voice came from your own, perfectly-shaped head, but sure enough you whirl around to see me, an unassuming, cleancut young man. I speak calmly to assure you not to call security.
 
-Hi, Mr. Trump. Sorry to startle you! I'm your new assistant -- I'm also the guy who will be narrating your undoubtedly heroic tale of saving the world! Call me Narrator Guy! Wow, it's really an inspiration to be working for you, sir! I can't wait to tell the story of how you make America great again!
+Hi, Mr. Trump. Sorry to startle you! I'm your new assistant -- I'm also the guy who will be narrating your undoubtedly heroic tale of saving the world! Call me Narrator Guy! Wow, it's really an inspiration to be working for you, sir!
 
 * ["Thanks!"]
 "Thanks, Narrator Guy," you say confidently. "But I'm hearing people don't like long intros, so let’s get to my story." 
@@ -98,7 +98,7 @@ So...are you ready to finally show us all how you're going to defeat them?
 *["No."]
 "No. Absolutely not," you say. "No way. If this little story of yours gets out, ISIS will know my foolproof strategy."
 
-But, Mr Trump, ISIS is planning to bomb one of our national treasures. Disney World. The jewel of the south. The justification for Florida's very existence. Please!
+But, Mr. Trump, ISIS is planning to bomb one of our national treasures. Disney World. The jewel of the south. The justification for Florida's very existence. Please!
 
 -> 1B2
 
@@ -116,7 +116,7 @@ I hold out a stack of papers. Please take this, sir. It's a 30-page brief on ISI
 
    	 * ["Gimme the one-page."]
 
-"Thirty pages?" you ask. "You want me spending my time reading -- which I enjoy by the way, fantastic reader, always have been, just tremendous at reading -- or do you want me to go completely and totally destroy ISIS."
+"Thirty pages?" you ask. "You want me spending my time reading -- which I enjoy by the way, fantastic reader, always have been, just tremendous at reading -- or do you want me to go completely and totally destroy ISIS?"
 
 Completely and totally destroy ISIS.
 
@@ -133,7 +133,7 @@ But Mr. Trump -- if you fire me, who will tell your story?
 
 	**"...low-energy, low-impact storyteller."
 	**"...all-talk, no-action word-scribbler."
-	**”...ineffective authorial gimmick.”
+	**"...ineffective authorial gimmick."
 
 - Mr. Trump...I...
 
@@ -279,7 +279,7 @@ This is the nerve center of the greatest place on earth -- sorry, second greates
 ===2D2===
 I take the driver's seat on a golf cart and we speed through sparsely-lit hallways, past throngs of employees and performers. Finally I stop the cart and lead you to an elevator. When the door opens, it takes your eyes a moment to adjust to the light.
 
-Main Street U.S.A. is the America you remember from your childhood, a picture of the 1950s. Clean streets, colorful buildings, trolleys, and soda shops adorn the streets while street performers dazzle tourists and mascots pose for photos with children. A horse pulls a trolley down the road. In the distance, the blue spires of Cinderella's castle rise to meet a perfect blue sky. 
+Main Street U.S.A. is the America you remember from your childhood, a picture of the 1950s. Colorful buildings and soda shops adorn the street while  performers dazzle tourists and mascots pose for photos with children. A horse defecates while pulling a trolley. In the distance, the blue spires of Cinderella's castle rise to meet a perfect blue sky. 
 
 *"Not a bad looking castle. That Snow White was loaded!"
 Actually, it's Cinderella's Castle, Mr. Trump.
@@ -304,7 +304,7 @@ Mr. Trump, we can't have a parade for you right now. It'd blow your cover and co
 	*"Just a little one -- with a few beauty queens." 
 	*"No parade, and I walk."
 	*"Fine, but you owe me a parade.” 
-- Trust me, Mr. Trump. After this is all done, you'll have a BIG parade. no, the BIGLIEST!
+- Trust me, Mr. Trump. After this is all done, you'll have a BIG parade. No, the BIGLIEST!
 
     *"Well said."
     *"Make sure you do."
@@ -328,9 +328,9 @@ But the clock is ticking! You'll have to interrogate these civilians quickly and
 ->2F2
 
 ===2F2===
-You approach a cozy corner of Main Street U.S.A. lined with potted plants and old-timey shops. Beneath an awning, an old man studies his bowler hat. Beside him, on a park bench, a pregnant woman roots through her purse. Several feet away a four year-old picks her nose, her parents pointing at their phones and apparently in an argument.
+You approach a cozy corner of Main Street U.S.A. lined with potted plants and old-timey shops. Beneath an awning, an old man studies his bowler hat. Beside him, on a park bench, a pregnant woman roots through her purse. Several feet away a four-year-old picks her nose, her parents pointing at their phones and apparently in an argument.
 
-When you glance back, you see me watching you from across the street. I give you a big thumbs up.
+When you glance back, you see me watching you from across the street. I give you a big thumbs-up.
 
     *[Continue]
 
@@ -346,7 +346,7 @@ You decide to interrogate the:
 *[Pregnant Woman]
 -> pregnantwoman
 
-*[Four year-old]
+*[Four-year-old]
 ->fouryearold
 
 
@@ -428,14 +428,14 @@ You follow up with an amount of laughter that could only be called self indulgen
 
 ===fouryearold===
 ~mascotquestions++
-	"Hey, baby," you say smoothly. "Don't bite me or cry, okay?"
+	"Hey, tiny boy," you say smoothly. "Don't bite me or cry, okay?"
 	"Hi!" the four year old says. "You're funny-looking."
 	
 * "You know anything about a terrorist plot to blow up Disney World?"
 The child immediately bursts into tears.
 
 			** [Comfort him]
-You touch the child, never a good sentence to write, let alone an action to take at Disney World. His father, a particularly big man, looks up from his cell phone.
+You touch the child -- never a good sentence to write, let alone an action to take at Disney World. His father, a particularly big man, looks up from his cell phone.
 
 "Hey -- get the hell out of here, you pervert!"
 
@@ -471,7 +471,7 @@ Alright, Mr. Trump. Hope you got some good intel -- looks like our terrorist is 
 ->4fantasyland 
 
 ===4fantasyland===
-The purple flaps of Dumbo's tent ripple in the breeze. Ancient castles stand in the distance, defended by high walls and long lines. You gravitate towards the bust of Ariel the Mermaid, but there’s work to be done.
+The purple flaps of Dumbo's tent ripple in the breeze. Ancient castles loom in the distance, defended by high walls and long lines. You gravitate towards the bust of Ariel the Mermaid, but there’s work to be done.
 
     *[Continue]
 
@@ -499,7 +499,7 @@ You approach Donald Duck.
 ->4fantasylandC
 
 ===4fantasylandC===
-A fire alarm sounds from Princess Fairytale Hall just as you grab the mascot. Seconds later you see me run out with a smirk on my face. I give you a double-thumbs up.
+A fire alarm sounds from Princess Fairytale Hall just as you grab the mascot. Seconds later you see me run out with a smirk on my face. I give you a double-thumbs-up.
 
 Alright, Mr. Trump! Let's get him to the Underground. I know a place that's real quiet where no one can hear you scream. Like, not even a little.
 
@@ -691,7 +691,7 @@ SMACK!
 
 
 ===5smallroomD===
-You wake up, naked and bound to a cold steel chair, never a good sentence to utter when you're in the darkness of Disney World's Underground. But you're Donald Trump, and poorly chosen words have never held you back.
+You wake up, naked and bound to a cold steel chair -- not ideal considering you're in the darkness of Disney World's Underground. But you're Donald Trump, and poorly chosen words have never held you back.
 
 Your head is aching. Clearly you've been drugged. 
 
@@ -828,7 +828,7 @@ Donald.
 - "Think of a way out."
 
 	*[Proclaim heroism]
-"Come on. I know how to defeat ISIS. That must mean I already know how to escape."
+"Come on. I know how to defeat ISIS, so that must mean I already know how to escape."
 
 	*[Think of a way out]
 "I've just gotta keep thinking," you say to yourself. "My brain, it's the best. I consult it on foreign policy, so it's only a matter of time."
@@ -873,7 +873,7 @@ You've got to escape, Donald. And you have the power within you.
 
 - Think about it, Donald. As a kid, you always thought big, right?
 
-"Yeah -- that's in Art of the Deal!"
+"Yeah -- that's in The Art of the Deal!"
 
 I know, Donald. Great book.
 
@@ -964,7 +964,7 @@ Finally you reach the door to Main Street U.S.A.
 "Let's do this. It's Trump Time™! And that’s trademarked, by the way. If anyone else tries to use Trump Time™ I will sue you into oblivion, okay? Okay. Where was I? Right: It’s Trump Time™!"
 
 	*[Proclaim Heroism]
-"I, Donald Trump, do solemnly swear that when I find you, Terrorist Guy, I am going to kick your Terrorist Ass. Because I am great. I’ve got so much of this stuff that I’m donating some to the country. In summary, Trump oozes greatness."
+"I, Donald Trump, do solemnly swear that when I find you, Terrorist Guy, I am going to kick your Terrorist ass. Because I am great. I’ve got so much of this stuff that I’m donating some to the country. In summary, the Donald oozes greatness."
 
 - Let's do this, Donald. Let's do this!
 
@@ -1018,7 +1018,7 @@ Terrorist Guy pulls out his phone and starts tweeting @realDonaldTrump.
 
 Oh no, Donald. He's tweeting. You've got to resist!
 
-But you immediatly brandish your smartphone to reply.
+But you immediately brandish your smartphone to reply.
 
 	*"@TerroristGuy -- Nope."
 	*"@TerroristGuy -- Untrue."
@@ -1050,7 +1050,7 @@ But you immediatly brandish your smartphone to reply.
 	*@TerroristGuy -- Try getting into Trump Tower now, big shot. You're banned."
 	*"@TerroristGuy -- Wrong again. You're wrong and you know it."
 
-- Stop tweeting, Donald! You. Have. To. Stop. Tweeting! That's your id's domain!
+- Stop tweeting, Donald! You. Have. To. Stop. Tweeting! That's your Id's domain!
 
 Terrorist Guy grins. "@realDonaldTrump is a charlatan, a toupee-wearing orange Dough Boy. And deep inside, when you sleep at night -- you KNOW IT!"
 
@@ -1091,7 +1091,7 @@ Use your words to bend reality and defend yourself, Donald!
 Terrorist Guy howls in laughter. "You might be morally bankrupt," he says. "But that's not defensible in a court of law!"
 
 	*[Launch Countersuit]
-You immediately call your team of lawyers and countersue on the grounds of defamation, famine, deconstruction, and other lawyer-sounding words, but Twitter quickly obliterates your attempt with research and quippy one-liners.
+You immediately call your team of lawyers and countersue on the grounds of defamation, famine, deconstruction, and other lawyer-sounding words, but Twitter quickly obliterates your attempt with research and one-liners.
 
 	*[Shed Company]
 You attempt to shed your shell company -- in this case your literal own skin -- but it's painful so you're forced to stop.
@@ -1105,7 +1105,7 @@ You attempt to shed your shell company -- in this case your literal own skin -- 
 The crowd steps back as Terrorist Guy conjures a hundred of illegal immigrants, who sprint towards you with reckless abandon.
 
 	*[Build Security Wall]
-The wall stops a few immigrants, but many of them arrive at you as if it were air, legally arriving on the other side and smacking you across the head.
+The wall stops a few immigrants, but many arrive at you legally and smack you across the head.
 
 	*[Use Media as Body Shield]
 Briefly, the media defends your labeling of Mexican immigrants as "rapists and murderers" as locker room conversation, but eventually they find their spine and step aside.
@@ -1184,7 +1184,7 @@ You devour the last of the steak, gristle and all. You flex your arms and your m
 "Here's your problem, ISIS," you say.
 
 	*"Your location is terrible."
-"I mean, the sand. So much sand," you say. "Come on. Too much land, not enough water. It's a 'loser' investment."
+"I mean, the sand. So much sand," you say. "Come on. Too much land, not enough water. It's a loser investment."
 ~climax_fight++
 ~insult++
 -> 7Climax
@@ -1228,8 +1228,8 @@ PREGNANT WOMAN SPITFIRE! BAM!
 ~summon++
 -> 7Climax
 
-	*"A Four Year Old Child!"
-The Four Year Old Child appears, pointing her finger squarely at Terrorist Guy.
+	*"A Four-Year-Old Child!"
+The Four-Year-Old appears, pointing his finger squarely at Terrorist Guy.
 
 "You smell like dumb butt, terror guy!"
 
@@ -1284,7 +1284,7 @@ Finish him, Donald! FINISH HIM!
 		* [Boast about Divine Abilities]
 	"I will be the greatest jobs president that God ever created."
 
-- The ground shakes. The heavens rend. A light appears from your head, brighter than a thousand suns and more powerful than a million nuclear bomb. Terrorist Guy attempts to shield his eyes, but the light blinds him instantly. 
+- The ground shakes. The heavens rend. A light appears from your head, brighter than a thousand suns and more powerful than a million nuclear bombs. Terrorist Guy attempts to shield his eyes, but the light blinds him instantly. 
 
 "I can't see," he wails. "Your ego -- it's too bright. It's too bright. I'm blind. Blind!" Terrorist Guy begins to sob. "What… What have you done to me?"
 
@@ -1353,7 +1353,9 @@ A lightsaber appears in your totally average-sized hands, and you slice Terroris
 *[Call Forth Statue of Liberty]
 You snap your fingers, and the Statue of Liberty appears, burning Terrorist Guy to cinder with her freedom eyes.
 
-"Nice work, Lady," you say. "You and I should work together more."
+"Nice, Lady," you say. "You and I should work together more."
+
+"Don't grope me," she says, vanishing.
 
 - "Trump," the crowd cheers. "Trump! Trump! Trump! Trump! Trump! Trump! Trump!"
 
@@ -1390,7 +1392,7 @@ Oh no, Donald! This can't be happening!
 ===7It_All_Fades===
 The sound of the cheering crowd subside…
 
-From a clamour to a whisper…
+From a clamor to a whisper…
 
 To a hush… 
 
@@ -1422,13 +1424,13 @@ The newspaper reads: HRC Trumps Trump
 
 The headline now reads: Trump Trumps World.
 
-You smile. Even when you’ve lost, you’ve won.
+You smile. Even when you lose, you still win.
 
 You didn't want the presidency. You never did.
 
 You wanted the spotlight.
 
-And you got what you wanted.
+And you got what you wanted
 
 Because you are Donald J. Trump.
 
