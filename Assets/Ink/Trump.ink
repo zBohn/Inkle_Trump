@@ -410,7 +410,7 @@ Um -- Mr. Trump, I think security's coming. You should probably get out of here.
 
 	*"You seen anything strange around here?"
 	She pauses. "I saw a mascot rooting through garbage cans," she says. "Don't remember which one, but he was wearing a hat."
-	**"You've got a great duty, ma'am."
+	**"You've done a great duty, ma'am."
 "And," you say. "Just to, ya know, make it clear. I don't mean duty as in poop. Homophones, very confusing. You want poop duty, talk to the horses."
 You follow up with an amount of laughter that could only be called self indulgent .
 	**"A hat? That's it? 
@@ -471,7 +471,7 @@ Alright, Mr. Trump. Hope you got some good intel -- looks like our terrorist is 
 ->4fantasyland 
 
 ===4fantasyland===
-The purple flaps of Dumbo's tent ripple in the breeze. Ancient castles stand in the distance, defended by high walls and long lines. You spend a moment fantasizing about life as a feudal lord. You gravitate towards the bust of Ariel the Mermaid, but there’s work to be done.
+The purple flaps of Dumbo's tent ripple in the breeze. Ancient castles stand in the distance, defended by high walls and long lines. You gravitate towards the bust of Ariel the Mermaid, but there’s work to be done.
 
     *[Continue]
 
@@ -849,7 +849,7 @@ I can help you finish your story of defeating ISIS.
 
 But first, you have to help yourself, which you're good at -- maybe the best at.
 	*"Maybe the best?"
-	*"No maybes in showbusiness, Jiminy.
+	*"No maybes in show business, Jiminy.
 
 - Okay -- the best, Donald. The BEST.
 
@@ -1020,7 +1020,7 @@ But you immediatly brandish your smartphone to reply.
 
 - The crowd leans in with interest.
 
-"WrealDonaldTrump. Thanks for all the material! ISIS uses you in recruiting videos, Trump."
+"@realDonaldTrump. Thanks for all the material! ISIS uses you in recruiting videos@"
 
 	*"@TerroristGuy -- Who wouldn't?"
 	*"@TerroristGuy -- You owe me money. Pay up."
@@ -1047,7 +1047,7 @@ But you immediatly brandish your smartphone to reply.
 
 - Stop tweeting, Donald! You. Have. To. Stop. Tweeting! That's your id's domain!
 
-Terrorist Guy grins. "@realDonaldTrump is a charlatan, a toupee-wearing orange Dough Boy. And deep inside, when you sleep at night -- you KNOW IT!
+Terrorist Guy grins. "@realDonaldTrump is a charlatan, a toupee-wearing orange Dough Boy. And deep inside, when you sleep at night -- you KNOW IT!"
 
 	*"@TerroristGuy -- YOU'RE DONE!"
 	*"@TerroristGuy -- I'M GONNA RIP YOU APART!"
@@ -1073,18 +1073,9 @@ Terrorist Guy grins. "@realDonaldTrump is a charlatan, a toupee-wearing orange D
 ===7Terrorist_Guy_Attacks===
 Terrorist Guy attacks you with lightning-like fury. You fall to the ground, panting and bloodied and, for the first time in your life, afraid
 
-He screams, "I HAVE BECOME ALL POWERFUL!"
+"I HAVE BECOME ALL POWERFUL!" he screams. "Now it's time to finish the job! Hey everybody, what's Donald Trump's favorite chapter of any book? Chapter 11!"
 
-"I'm scared of Batman," a small girl says.
-
-"Me too!" cries a small boy.
-
-"Hey everybody," Terrorist Guy shouts. "What's Donald Trump's favorite chapter of any book?"
-
-The crowd all responds, "Art of the Deal!"
-
-
-"No, Chapter 11!" Terrorist Guy says. "TAKE THIS!" He conjures up  a legion of bankruptcy lawyers who march towards you in unison, branding their identical briefcases, their intense green eyes staring through your suit, and into your very soul.
+He conjures up  a legion of bankruptcy lawyers who march towards you in unison, branding their identical briefcases, their intense green eyes staring through your suit, and into your very soul.
 
 On no, Donald. Not again! Remember the casinos. Our Taj Mahal, The Castle, The Plaza, the -- well, most of our businesses! Think fast! 
 
@@ -1119,7 +1110,7 @@ You start to criticize the immigrants until you realize that you rely on a stead
 
 - You stagger back, your perfect nose bloody but still regal.
 
-"It'd over, Trump," screams Terrorist Guy. "You see, I told all my ISIS buddies back home that I had a secret plan to defeat YOU!"
+"It's over, Trump," screams Terrorist Guy. "You see, I told all my ISIS buddies back home that I had a secret plan to defeat YOU!"
 
 ->7MagicMirror
 
