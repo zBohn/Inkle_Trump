@@ -9,7 +9,6 @@ VAR betrayal_questions = 0
 VAR climax_fight = 0
 VAR summon = 0
 VAR insult = 0
-VAR oldmandead = false
 VAR gameover = false
 
 Donald Trump Saves the World
@@ -105,7 +104,7 @@ But, Mr. Trump, ISIS is planning to bomb one of our national treasures. Disney W
 ===1B2===
 
 * ["Fine."]
-"Fine," you say. "I will personally destroy the bigliest terrorist group on the planet -- but only because you asked politely. I don’t like people who ask impolitely. They get nothing." 
+"Fine," you say. "I will personally stop ISIS -- but only because you asked politely. I don’t like people who ask impolitely. They get nothing." 
 -> 1C
 
 ===1C===
@@ -177,7 +176,7 @@ Orlando.
 ->1D
 
 ===1D===
-You step out of your private jet and into the oppressive, humid Florida air. The odor of oranges and old people whiling away their final years wafts towards you.
+You step out of your private jet and into the oppressive, humid Florida air. The odor of orange groves and old people golfing wafts towards you.
 A black Lincoln MKZ is waiting on the runway. I open the door for you, and you step inside.
 
 Okay, Mr. Trump. We're on our way to Disney World! Before we get there, we need to pick your cover mascot.
@@ -339,7 +338,7 @@ When you glance back, you see me watching you from across the street. I give you
 ===2questions===
  {mascotquestions >=2: ->3A}
 
-You decide to interrogate the:
+You decide to interrogate the...
 *[Old Man]
 ->oldman
 
@@ -376,7 +375,7 @@ The old man chuckles. "Just kidding! Why hello, there!"
 "No," the old man says. "Are you?"
 "Putin's just a friend," you blurt. "Oh, you said ISIS -- no. That'll be all."
 
-You could awkwardly and walk away.
+You walk away, whistling.
 ->2questions
 
 	*"Where's the BOMB? Tell me NOW!"
@@ -412,7 +411,7 @@ Um -- Mr. Trump, I think security's coming. You should probably get out of here.
 	She pauses. "I saw a mascot rooting through garbage cans," she says. "Don't remember which one, but he was wearing a hat."
 	**"You've done a great duty, ma'am."
 "And," you add. "Just to, ya know, make it clear. I don't mean duty as in poop. Homophones, very confusing. You want poop duty, talk to the horses."
-You follow up with an amount of laughter that could only be called self indulgent .
+You follow up with an amount of laughter that could only be called self-indulgent .
 	**"A hat? That's it? 
 "The world is gonna blow up," you say. "And that's all you got. If Disney World ain't here tomorrow, it's your fault."
     
@@ -761,7 +760,7 @@ Your endless lies. Your greed. Your hubris.
 		**"I'll show you weak!"
 You struggle against the ropes.
 
-If only your body got the workout your big, fat mouth gets every day, Trump?
+If only your body got the workout your big fat mouth gets every day, Trump?
 
 "Wow… That was pretty rude, Narrator Guy. And I've been very nice to you up until now.."
 
@@ -1038,15 +1037,7 @@ But you immediately brandish your smartphone to reply.
 
 - The crowd snickers, wondering if this is a new reality TV show. Trump Vs. Terrorism.
 
-- "@realDonaldTrump, you'd have made more money if you'd put your father's million in an unmanaged index fund."
-	*"@TerroristGuy -- Prove it."
-	*"@TerroristGuy -- You know nothing, Terrorist Guy."
-
-- "You're a fraud, @realDonaldTrump is a terrible businessman. #releaseyourtaxes #notabillionaire."
-*"@TerroristGuy -- Nasty Terrorist, big surprise."
-*"@TerroristGuy -- That's not nice. Learn some manners."
-
-- "You'd be nothing without your dad, @realDonaldTrump #notabillionaire #inyourfathersshadow."
+"You'd be nothing without your dad, @realDonaldTrump #notabillionaire #inyourfathersshadow."
 	*@TerroristGuy -- Try getting into Trump Tower now, big shot. You're banned."
 	*"@TerroristGuy -- Wrong again. You're wrong and you know it."
 
@@ -1080,7 +1071,7 @@ Terrorist Guy attacks you with lightning-like fury. You fall to the ground, pant
 
 "I HAVE BECOME ALL POWERFUL!" he screams. "Now it's time to finish the job! Hey everybody, what's Donald Trump's favorite chapter of any book? Chapter 11!"
 
-He conjures up  a legion of bankruptcy lawyers who march towards you in unison, branding their identical briefcases, their intense green eyes staring through your suit, and into your very soul.
+He conjures up a legion of bankruptcy lawyers who march towards you in unison, branding their identical briefcases, their intense green eyes staring through your suit, and into your very soul.
 
 On no, Donald. Not again! Remember the casinos. Our Taj Mahal, The Castle, The Plaza, the -- well, most of our businesses! Think fast! 
 
@@ -1105,10 +1096,10 @@ You attempt to shed your shell company -- in this case your literal own skin -- 
 The crowd steps back as Terrorist Guy conjures a hundred of illegal immigrants, who sprint towards you with reckless abandon.
 
 	*[Build Security Wall]
-The wall stops a few immigrants, but many arrive at you legally and smack you across the head.
+The wall stops a few immigrants, but many arrive at you legally, smacking you across the head.
 
 	*[Use Media as Body Shield]
-Briefly, the media defends your labeling of Mexican immigrants as "rapists and murderers" as locker room conversation, but eventually they find their spine and step aside.
+Briefly, the media defends your labeling of Mexican immigrants as "rapists and murderers" as locker room conversation, but eventually step aside and allow you to be pummeled.
 
 	*[Insult as Freeloaders]
 You start to criticize the immigrants until you realize that you rely on a steady stream of immigrant for your wives, busboys, and construction workers.
@@ -1169,7 +1160,7 @@ You devour the last of the steak, gristle and all. You flex your arms and your m
 
 
 ===7Climax===
-{&|Take this ISIS jerk out, Donald!|You got this, Donald!|This is your big climax -- make it bigger!| Defeat this terrorist and we'll hold you a HUUUUGE parade!|Show the world your secret plan to stop ISIS!|}
+{&|Take this ISIS jerk out, Donald!|You got this, Donald!|This is your big climax -- make it bigger!| Defeat this terrorist and we'll hold you a huge parade!|Show the world your secret plan to stop ISIS!|}
 
 	+ {insult <=3 } [Hurl ISIS Insult]
 ->7Isis_insult
@@ -1256,7 +1247,7 @@ Quoting yourself gives you strength, Donald! It always has!
 
 	*[State Misuse of Word Beauty]
 	“The beauty of me is that I’m very rich.”
-	“You know, it really doesn’t matter what the media write as long as you’ve got a young, and beautiful, piece of ass.” 
+	“You know, it really doesn’t matter what the media write as long as you’ve got a young, and beautiful piece of ass.” 
 
 	* [Proclaim Attractiveness]
 “All of the women on The Apprentice flirted with me – consciously or unconsciously. That’s to be expected.”
@@ -1343,7 +1334,7 @@ You stand over Terrorist Guy.
 "I'll take that chance."
 
 *[Insult to Death]
-"There will be exactly zero virgins waiting for you, loser. No one will remember you. Children will do number twos on your grave, and some white actor will play you in the movie. Now die!"
+"There will be exactly zero virgins waiting for you, loser. No one will remember you. Children will do number twos on your grave, and some Indian actor will play you in the movie. Now die!"
 
 Terrorist Guy gasps, sighs, dies.
 
