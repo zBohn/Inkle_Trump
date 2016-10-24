@@ -411,7 +411,7 @@ Um -- Mr. Trump, I think security's coming. You should probably get out of here.
 	*"You seen anything strange around here?"
 	She pauses. "I saw a mascot rooting through garbage cans," she says. "Don't remember which one, but he was wearing a hat."
 	**"You've done a great duty, ma'am."
-"And," you say. "Just to, ya know, make it clear. I don't mean duty as in poop. Homophones, very confusing. You want poop duty, talk to the horses."
+"And," you add. "Just to, ya know, make it clear. I don't mean duty as in poop. Homophones, very confusing. You want poop duty, talk to the horses."
 You follow up with an amount of laughter that could only be called self indulgent .
 	**"A hat? That's it? 
 "The world is gonna blow up," you say. "And that's all you got. If Disney World ain't here tomorrow, it's your fault."
@@ -1402,6 +1402,7 @@ You. Trump. Surrounded by an ornate, gold-gilded picture frame as a familiar set
 ->Trump_Tower
 
 ===Trump_Tower===
+#PlayMusic_Trump_Adventure_Theme
 ...725 Fifth avenue. Midtown Manhattan. The 58th floor. It is a crisp December morning, and you, Donald Trump, yawn, having had a strange dream the night before.
 
 You dreamed that you met your match, someone with the uncanny ability to bend reality with words alone, almost as skillfully as you have done your entire life.
