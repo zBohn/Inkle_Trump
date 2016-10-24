@@ -645,6 +645,11 @@ He's lying, Mr. Trump. Stalling until reinforcements arrive -- the oldest trick 
 
 ===5smallroomB===
 	"You're the ISIS operative," the prisoner screams. "Aren't you? Oh no... please, don't...I've got a--"
+	
+-> 5smallroomB1
+
+===5smallroomB1===
+#play_gunshot_sfx
 
 BOOM…
 
@@ -1443,8 +1448,8 @@ Thanks to Connor Thomas Cleary (www.connorthomascleary.com), Zach Bohn, and Rais
 Also, thanks to Ink, which is an awesome narrative engine. Try it at www.inklestudios.com/ink/
 
 Follow me on twitter @daniel_homan
-Support us at Patreon: www.patreon.com/citizenstories
 Sign up for the mailing list: www.dannyhoman.com 
+Support at Patreon: www.patreon.com/citizenstories
 
 And remember -- we only have one reality that we know of, so please vote on November 8th.
 
