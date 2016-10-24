@@ -1407,7 +1407,7 @@ You. Trump. Surrounded by an ornate, gold-gilded picture frame as a familiar set
 ->Trump_Tower
 
 ===Trump_Tower===
-#PlayMusic_Trump_Adventure_Theme
+#PlayMusic_Trump_Tower
 ...725 Fifth avenue. Midtown Manhattan. The 58th floor. It is a crisp December morning, and you, Donald Trump, yawn, having had a strange dream the night before.
 
 You dreamed that you met your match, someone with the uncanny ability to bend reality with words alone, almost as skillfully as you have done your entire life.
@@ -1439,6 +1439,8 @@ Because you are Donald J. Trump.
 -> end
 
 ===end===
+#PlayMusic_1A
+
 Thank you for playing, and we hope you enjoyed Donald Trump Saves the World.
 
 Please share this story if you liked it. If you didn't -- why on earth did you keep reading?
