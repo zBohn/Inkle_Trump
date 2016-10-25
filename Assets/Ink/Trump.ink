@@ -15,10 +15,7 @@ Donald Trump Saves the World
 
  	+[Start the Game] 
     -> 1A
-  	+[About]  
-    -> Authors
   
-    
 ===Debug===
     *[Interrogation]
    ->5smallroomA
@@ -430,7 +427,7 @@ You follow up with an amount of laughter that could only be called self-indulgen
 	"Hey, tiny boy," you say smoothly. "Don't bite me or cry, okay?"
 	"Hi!" the four year old says. "You're funny-looking."
 	
-* "You know anything about a terrorist plot to blow up Disney World?"
+* "Do you know about a plot to blow up Disney World?"
 The child immediately bursts into tears.
 
 			** [Comfort him]
@@ -681,7 +678,7 @@ Don't make any sudden movements, Trump.
 
 *"What's the deal?"
 *"We're friends, right?"
-- You got me this far, Mr. Trump. But I'm afraid your part in this story is about to end.
+- You got me this far, Trump. But I'm afraid your part in this story is about to end.
 SMACK!
 ...Darkness...
 
@@ -772,11 +769,11 @@ Me and my buddies, we're going to destroy an American landmark, and you are goin
 	*"Unlikely."
 	*"Wrong."
 
-- This is goodbye, Mr. Trump.
+- This is goodbye, Trump.
 
 You watch as I shed my Dwarf costume and hop into a Winnie the Pooh outfit. I grab a duffle bag decorated as a pot of "Hunny."
 
-Now if you'll excuse me, Trump, I'm off to Mainstreet, USA for the big parade!
+Now if you'll excuse me, Trump, I'm off to Mains Street, USA for the big parade!
 
 It's my story now, Trump. Narrate this!
 
@@ -888,7 +885,7 @@ Donald -- when you were a kid, when the world wasn't going your way -- what did 
 ->6DonaldBetrayed2
 
 ===6DonaldBetrayed2===
-	*"Good thinking, me! Man, I’ve got the best Jiminy. Seriously."
+	*"Brilliant. I’ve got the best Jiminy!"
 Thanks. You and me, Donald. We're a perfect team.
 
 	*"Enough yapping, Jiminy. I've got a world to save!"
@@ -917,7 +914,7 @@ And suddenly, there she is. Number 3. Melania. Your beautiful wife. She slices t
 
 You stand. Confident. Virile. Fearless.
 
-- Unstoppable.
+- Quickly, you put on your clothes.
 
 	*[Order door to open]
 "Open for me, door," you say. "Now!"
@@ -928,9 +925,9 @@ BOOM. Just like Van Damme.
 "Take THAT, door!"
 The door flies off its hinges.
 
-- And you, Donald-to-the-mother-f**#*#-Trump, stroll triumphantly out of the room.
+- Trump 1, Door 0.
 
-Trump 1, Door 0.
+And you stroll triumphantly out of the room.
 
 *"I've got a world to save!"
 *"I'm coming for you, Terrorist Guy."
@@ -984,7 +981,7 @@ Donald -- there's Terrorist Guy! You've got to stop him from detonating that bom
 	*[Commandeer Horse]
 You leap onto the nearest horse, and with a vigorous slap on its buttocks, gallops towards the parade.
 
-	*[Sprint like That Jamaican Guy]
+	*[Sprint like that Jamaican Guy]
 You, the one and only Trump, sprint down Main Street U.S.A faster than that amateur, Usain Bolt, towards the parade… 
 
 - Towards your destiny.
@@ -1024,7 +1021,7 @@ But you immediately brandish your smartphone to reply.
 
 - The crowd leans in with interest.
 
-"@realDonaldTrump. Thanks for all the material! ISIS uses you in recruiting videos@"
+"@realDonaldTrump. Thanks for all the material! ISIS uses you in recruiting videos!"
 
 	*"@TerroristGuy -- Who wouldn't?"
 	*"@TerroristGuy -- You owe me money. Pay up."
@@ -1038,8 +1035,8 @@ But you immediately brandish your smartphone to reply.
 - The crowd snickers, wondering if this is a new reality TV show. Trump Vs. Terrorism.
 
 "You'd be nothing without your dad, @realDonaldTrump #notabillionaire #inyourfathersshadow."
-	*@TerroristGuy -- Try getting into Trump Tower now, big shot. You're banned."
-	*"@TerroristGuy -- Wrong again. You're wrong and you know it."
+	*@TerroristGuy -- Banned from Trump Tower now."
+	*"@TerroristGuy -- Wrong again."
 
 - Stop tweeting, Donald! You. Have. To. Stop. Tweeting! That's your Id's domain!
 
@@ -1203,7 +1200,7 @@ The Old Man appears. "Damn you, ISIS," he yells, pulls out a pistol, and shoots 
 
 OLD MAN FACE SHOT!
 
-Suddenly, a helicopter with the NRA logo on the side lands in the middle of Mainstreet. Two men in suits usher the old man inside, presumably to fly him towards an awards ceremony or to star in a political advertisement.
+Suddenly, a helicopter with the NRA logo on the side lands in the middle of Main Street, U.S.A. Two men in suits usher the old man inside, presumably to fly him towards an awards ceremony or to star in a political advertisement.
 ~climax_fight++
 ~summon++
 -> 7Climax
@@ -1247,12 +1244,11 @@ Quoting yourself gives you strength, Donald! It always has!
 
 	*[State Misuse of Word Beauty]
 	“The beauty of me is that I’m very rich.”
-	“You know, it really doesn’t matter what the media write as long as you’ve got a young, and beautiful piece of ass.” 
 
 	* [Proclaim Attractiveness]
 “All of the women on The Apprentice flirted with me – consciously or unconsciously. That’s to be expected.”
 
-- Glancing around wildly, Terrorist Guy takes a step back. "Why -- why are these women applauding? Did you hear what he just said?"
+- Glancing around wildly, Terrorist Guy takes a step back. "Why -- why are you applauding? Did you hear what he just said?"
 
 You start to glow. Your scalp tingles.
 
@@ -1299,7 +1295,7 @@ You snap your fingers and stand back. A recent MIT electrical engineer graduate 
 You hand him a fifty.
     *[Stiff him]
 "Get lost, dweeb.”
-    *[Accuse him of overstaying his student Visa and have him arrested.]
+    *[Accuse him of overstaying student Visa]
 “Security. Check the papers on this guy.”
 
 He says, “Wait, stop! I’m from Cleveland!”
@@ -1438,13 +1434,13 @@ Thank you for playing, and we hope you enjoyed Donald Trump Saves the World.
 
 Please share this story if you liked it. If you didn't -- why on earth did you keep reading?
 
-Thanks to Connor Thomas Cleary (www.connorthomascleary.com), and Raison Varner (www.soundcloud.com/rvarner) for their awesome work on Donald Trump Saves the World.
+Thanks to Connor Thomas Cleary (www.connorthomascleary.com), Zach Bohn (www.zachboh.com), and Raison Varner (www.soundcloud.com/rvarner) for their awesome work on Donald Trump Saves the World.
 
 Also, thanks to Ink, which is an awesome narrative engine. Try it at www.inklestudios.com/ink/
 
+Support at Patreon: www.patreon.com/citizenstories
 Follow me on twitter @daniel_homan
 Sign up for the mailing list: www.dannyhoman.com 
-Support at Patreon: www.patreon.com/citizenstories
 
 And remember -- we only have one reality that we know of, so please vote on November 8th.
 
@@ -1467,8 +1463,6 @@ b) do something nice for something today as payment, like donate to a charity, v
 Thanks for playing!
 
 DH 2016
-
-
     
 THE END
 
