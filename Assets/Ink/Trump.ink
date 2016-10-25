@@ -688,9 +688,7 @@ SMACK!
 
 
 ===5smallroomD===
-You wake up, naked and bound to a cold steel chair -- not ideal considering you're in the darkness of Disney World's Underground. But you're Donald Trump, and poorly chosen words have never held you back.
-
-Your head is aching. Clearly you've been drugged. 
+You wake up, naked and bound to a cold steel chair. Your head is aching. Clearly you've been drugged. 
 
 "Huh," you say groggily. "What's going on Narrator Guy?"
 
@@ -1009,9 +1007,9 @@ The crowd screams and hollers!
 
 ===7Terrorist_Guy_Wordsults===
 
-Terrorist Guy pulls out his phone and starts tweeting @realDonaldTrump.
+Terrorist Guy pulls out his phone and starts tweeting to @realDonaldTrump.
 
-"@realDonaldTrump is overrated loser."
+"@realDonaldTrump is an overrated loser."
 
 Oh no, Donald. He's tweeting. You've got to resist!
 
@@ -1022,22 +1020,16 @@ But you immediately brandish your smartphone to reply.
 
 - The crowd leans in with interest.
 
-"@realDonaldTrump. Thanks for all the material! ISIS uses you in recruiting videos!"
+"@realDonaldTrump. Thanks for the material! ISIS uses you in recruiting videos!"
 
 	*"@TerroristGuy -- Who wouldn't?"
 	*"@TerroristGuy -- You owe me money. Pay up."
 
 - Nicely deflected, Trump! 
 
-"@realDonaldTrump lost the election in a landslide. #historysgreatestjokes."
+"@realDonaldTrump lost election in a landslide."
 	*"@TerroristGuy -- I won. Read much?"
 	*"@TerroristGuy -- Totally false. You lost."
-
-- The crowd snickers, wondering if this is a new reality TV show. Trump Vs. Terrorism.
-
-"You'd be nothing without your dad, @realDonaldTrump #inyourfathersshadow."
-	*"@TerroristGuy -- Banned from Trump Tower now."
-	*"@TerroristGuy -- Wrong again."
 
 - Stop tweeting, Donald! You. Have. To. Stop. Tweeting! That's your Id's domain!
 
