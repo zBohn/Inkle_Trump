@@ -463,6 +463,7 @@ Alright, Mr. Trump. Hope you got some good intel -- looks like our terrorist is 
 	<> you say. "Oh, and for the country too, I guess."
 
 - Mr. Trump -- I'm hearing that the terrorist is in Fantasyland. We've got to hurry!
+* "To Fantasyland!"
 
 ->4fantasyland 
 
@@ -773,7 +774,7 @@ Me and my buddies, we're going to destroy an American landmark, and you are goin
 
 You watch as I shed my Dwarf costume and hop into a Winnie the Pooh outfit. I grab a duffle bag decorated as a pot of "Hunny."
 
-Now if you'll excuse me, Trump, I'm off to Mains Street, USA for the big parade!
+Now if you'll excuse me, Trump, I'm off to Main Street, U.S.A. for the big parade!
 
 It's my story now, Trump. Narrate this!
 
@@ -1034,8 +1035,8 @@ But you immediately brandish your smartphone to reply.
 
 - The crowd snickers, wondering if this is a new reality TV show. Trump Vs. Terrorism.
 
-"You'd be nothing without your dad, @realDonaldTrump #notabillionaire #inyourfathersshadow."
-	*@TerroristGuy -- Banned from Trump Tower now."
+"You'd be nothing without your dad, @realDonaldTrump #inyourfathersshadow."
+	*"@TerroristGuy -- Banned from Trump Tower now."
 	*"@TerroristGuy -- Wrong again."
 
 - Stop tweeting, Donald! You. Have. To. Stop. Tweeting! That's your Id's domain!
@@ -1045,7 +1046,7 @@ Terrorist Guy grins. "@realDonaldTrump is a charlatan, a toupee-wearing orange D
 	*"@TerroristGuy -- YOU'RE DONE!"
 	*"@TerroristGuy -- I'M GONNA RIP YOU APART!"
 
-- You throw down your smart phone and crash jump onto the float to beat the living sack out of Terrorist Guy.
+- You throw down your smart phone and leap onto the float to beat the living sack out of Terrorist Guy.
 
     *[Attack!]
 
@@ -1165,7 +1166,7 @@ You devour the last of the steak, gristle and all. You flex your arms and your m
 	+ {summon <=3 } [Summon American]
 ->7SummonAmerican
 
-    * {climax_fight >=3 } [Super Duper Declare Brilliance]->Super_Duper_Proclaim_Brilliance 
+    * {climax_fight >=2 } [Super Duper Declare Brilliance]->Super_Duper_Proclaim_Brilliance 
 
 
 ===7Isis_insult===
@@ -1434,7 +1435,7 @@ Thank you for playing, and we hope you enjoyed Donald Trump Saves the World.
 
 Please share this story if you liked it. If you didn't -- why on earth did you keep reading?
 
-Thanks to Connor Thomas Cleary (www.connorthomascleary.com), Zach Bohn (www.zachboh.com), and Raison Varner (www.soundcloud.com/rvarner) for their awesome work on Donald Trump Saves the World.
+This game was written and designed by Danny Homan (www.dannyhoman.com), with additional writing and design by Connor Thomas Cleary (www.connorthomascleary.com), design/code by Zach Bohn (www.zachbohn.com), and music and sound design by Raison Varner (www.soundcloud.com/rvarner).
 
 Also, thanks to Ink, which is an awesome narrative engine. Try it at www.inklestudios.com/ink/
 
