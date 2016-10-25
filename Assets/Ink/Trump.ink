@@ -27,7 +27,7 @@ Donald Trump Saves the World
     
 ===Authors===
     
-This game was written and designed by Danny Homan (www.dannyhoman.com), with additional writing and design by Connor Thomas Cleary (www.connorthomascleary.com), design/coding by Zach Bohn, and music and sound design by Raison Varner (www.soundcloud.com/rvarner).
+This game was written and designed by Danny Homan (www.dannyhoman.com), with additional writing and design by Connor Thomas Cleary (www.connorthomascleary.com), and music and sound design by Raison Varner (www.soundcloud.com/rvarner).
 
     *[Start the Game]
     -> 1A
@@ -1438,7 +1438,7 @@ Thank you for playing, and we hope you enjoyed Donald Trump Saves the World.
 
 Please share this story if you liked it. If you didn't -- why on earth did you keep reading?
 
-Thanks to Connor Thomas Cleary (www.connorthomascleary.com), Zach Bohn, and Raison Varner (www.soundcloud.com/rvarner) for their awesome work on Donald Trump Saves the World.
+Thanks to Connor Thomas Cleary (www.connorthomascleary.com), and Raison Varner (www.soundcloud.com/rvarner) for their awesome work on Donald Trump Saves the World.
 
 Also, thanks to Ink, which is an awesome narrative engine. Try it at www.inklestudios.com/ink/
 

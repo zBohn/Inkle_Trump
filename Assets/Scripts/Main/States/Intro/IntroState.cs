@@ -39,7 +39,7 @@ public class IntroState : MainState {
 	// Type Inkle, type game title, and fade in from black
 	private IEnumerator DoLongIntro ()
     {
-        AudioClipDatabase.Instance.PlayPart7END();
+        AudioClipDatabase.Instance.PlayTrumpTheme();
         yield return new WaitForSeconds(2f);
 
 		inklePresentsText.gameObject.SetActive(true);

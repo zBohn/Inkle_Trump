@@ -65,25 +65,10 @@ public class GameState : MainState {
 			Destroy(contentParent.GetChild(i).gameObject);
 		}
 	}
-    public void SetupInkExternalFunctions()
-    {
-        story.BindExternalFunction("PlayMusic", (string arg1) => { });
-    }
-    public void PlayMusic(string music)
-    {
-        Debug.Log("GameState:PlayMusic - music:" + music);
-
-        switch(music)
-        {
-            case "PlayMusic_1A":
-                AudioClipDatabase.Instance.PlayPart1A();
-                break;
-        }
-    }
 
     IEnumerator OnAdvanceStory ()
     {
-        //story.ChoosePathString("5smallroom"); DEBUG to get straight to a Knot
+       //story.ChoosePathString("end");// DEBUG to get straight to a Knot
 
         if (story.canContinue)
         {
@@ -135,8 +120,16 @@ public class GameState : MainState {
             AudioClipDatabase.Instance.PlayPart7();
         if (story.currentTags.Contains("PlayMusic_7_Terrorist_Guy_Defeated"))
             AudioClipDatabase.Instance.PlayPart7END();
+        if (story.currentTags.Contains("PlayMusic_Trump_Tower"))
+            AudioClipDatabase.Instance.PlayTrumpTower();
+        if (story.currentTags.Contains("PlayMusic_Trump_Tower"))
+            AudioClipDatabase.Instance.PlayTrumpTower();
+
+        //SFX
         if (story.currentTags.Contains("play_airplane_sfx"))
             AudioClipDatabase.Instance.PlayPlaneTakeoff();
+        if (story.currentTags.Contains("play_gunshot_sfx"))
+            AudioClipDatabase.Instance.PlayGunshot();
     }
 
 	public void ChooseChoiceIndex (int choiceIndex) {

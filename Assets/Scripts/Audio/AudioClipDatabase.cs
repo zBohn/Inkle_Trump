@@ -8,6 +8,7 @@ public class AudioClipDatabase : MonoSingleton<AudioClipDatabase>
     public AudioClip DialogChoice;
     public AudioClip ActionChoice;
     public AudioClip PlaneTakeoff;
+    public AudioClip Gunshot;
 
     //MUSIC
     public AudioClip Part_1A;
@@ -16,10 +17,13 @@ public class AudioClipDatabase : MonoSingleton<AudioClipDatabase>
     public AudioClip Part_6;
     public AudioClip Part_7;
     public AudioClip Part_7_END;
+    public AudioClip Trump_Tower;
+    public AudioClip Trump_Theme;
 
     //Variables
     public GameObject musicAudio;
 
+    //SFX
 	public void PlayActionChoice()
     {
 		PlaySound(ActionChoice);
@@ -34,7 +38,12 @@ public class AudioClipDatabase : MonoSingleton<AudioClipDatabase>
     {
         PlaySound(PlaneTakeoff);
     }
+    public void PlayGunshot()
+    {
+        PlaySound(Gunshot);
+    }
 
+    //Music
     public void PlayPart1A()
     {
         PlayMusic(Part_1A);
@@ -49,7 +58,7 @@ public class AudioClipDatabase : MonoSingleton<AudioClipDatabase>
     }
     public void PlayPart6()
     {
-        //PlayMusic(Part_6);
+        PlayMusic(Part_6);
     }
     public void PlayPart7()
     {
@@ -58,6 +67,14 @@ public class AudioClipDatabase : MonoSingleton<AudioClipDatabase>
     public void PlayPart7END()
     {
         PlayMusic(Part_7_END);
+    }
+    public void PlayTrumpTower()
+    {
+        PlayMusic(Trump_Tower);
+    }
+    public void PlayTrumpTheme()
+    {
+        PlayMusic(Trump_Theme);
     }
 
     private void PlayMusic(AudioClip audioClip)
