@@ -315,12 +315,6 @@ According to the NSA, one of the three people standing beneath that American fla
 
 But the clock is ticking! You'll have to interrogate these civilians quickly and find out what they know!
 
-*"Got it."
-->2F2
-	*"Explain again?"
-- Just talk to them, Mr. Trump. Find out what they know.
-
-    *["Got it."]
 ->2F2
 
 ===2F2===
@@ -333,7 +327,7 @@ When you glance back, you see me watching you from across the street. I give you
 -> 2questions
 
 ===2questions===
- {mascotquestions >=2: ->3A}
+ {mascotquestions >=1: ->3A}
 
 You decide to interrogate the...
 *[Old Man]
@@ -454,7 +448,7 @@ He continues to sob as you slowly place him back on the ground.
 ->2questions
 
 ===3A===
-Alright, Mr. Trump. Hope you got some good intel -- looks like our terrorist is on the move! He's going to plant a bomb right here in Disney World and detonate it unless we adhere to their demands.
+Mr. Trump, it looks like our terrorist is on the move! He's going to plant a bomb right here in Disney World and detonate it unless we adhere to their demands.
 
 	*"How do you know all of this, Narrator Guy?"
 ...I'm a narrator. That's my job.
@@ -470,13 +464,11 @@ Alright, Mr. Trump. Hope you got some good intel -- looks like our terrorist is 
 ===4fantasyland===
 The purple flaps of Dumbo's tent ripple in the breeze. Ancient castles loom in the distance, defended by high walls and long lines. You gravitate towards the bust of Ariel the Mermaid, but there’s work to be done.
 
-    *[Continue]
-
 Mr. Trump -- there they are! The mascots! Sleepy the Dwarf, Donald Duck, and Pluto, all taking pictures with children. One of them is sure to have the bomb -- you've got to grab the right one. I'll create a distraction as soon as you've chosen your target!
 -> 4fantasylandB
 
 ===4fantasylandB===
-Who's it gonna be?
+Who are you going to nab?
 	*[Sleepy the Dwarf]
 You tackle Sleepy the Dwarf with a fuzz-muffled thud.
 
@@ -539,7 +531,7 @@ I told you -- I used to be with the NSA.
 ->5smallroomA
 
 ===5smallroomA===
- {interrogationtime >=3: ->5smallroomB}
+ {interrogationtime >=2: ->5smallroomB}
     
 	+{ waterboard_number <= 2} [Waterboard]
 "Hand me that Sunny Delight, Narrator Guy," you say. "I'm gonna juice this bastard!"
@@ -650,11 +642,9 @@ He's lying, Mr. Trump. Stalling until reinforcements arrive -- the oldest trick 
 
 BOOM…
 
-The prisoner falls limp against the table. His head lolls to the side.
+The prisoner falls limp against the table.
 
-    *[Continue]
 	->5smallroomC
-
 
 ===5smallroomC===
 You turn around. There I am, holding the gun.
@@ -711,18 +701,12 @@ The guy I just killed was an undercover FBI agent sent to catch me, and the poli
 ->5SmallRoomD1
 
 ===5SmallRoomD1===
-Oh Donald, I knew I could count on your self-obsessed bravado and complete lack of self-awareness to just absorb whatever I told you and make decisions without thinking. Well done!
-
-	*"I'm gonna sue that smirk off your face."
-SMACK!
-	*"False."
-SMACK!
-- Oh, that look in your eyes, Trump. Like a clueless frog sitting in a pot of water. You got something to say, Trump? Never seen you this quiet before. You must be disappointed in yourself.
+Oh Donald, I knew I could count on your self-obsessed bravado and complete lack of self-awareness to just absorb whatever I told you and make decisions without thinking. So predictable!
 
 ->5betrayalquestions
 
 ===5betrayalquestions===
-{betrayal_questions >= 2: I'm done talking, Trump. It's time for action. -> 5smallroomE }
+{betrayal_questions >= 1: I'm done talking, Trump. It's time for action. -> 5smallroomE }
 
 	*"Why would you betray me?"
 ~betrayal_questions++
@@ -740,7 +724,7 @@ Easy, Trump. You are everything I despise. A fat, ignorant, entitled American wh
 
 -> 5betrayalquestions
 
-    *"You're not going to get away with this."
+    *"You're not gonna get away with this!"
 ~betrayal_questions++
 
 SMACK!
@@ -765,14 +749,12 @@ If only your body got the workout your big fat mouth gets every day, Trump?
 
 ===5smallroomE===
 Me and my buddies, we're going to destroy an American landmark, and you are going to take the fall.
-	*"Unlikely."
-	*"Wrong."
 
-- This is goodbye, Trump.
+Goodbye, Trump.
 
 You watch as I shed my Dwarf costume and hop into a Winnie the Pooh outfit. I grab a duffle bag decorated as a pot of "Hunny."
 
-Now if you'll excuse me, Trump, I'm off to Main Street, U.S.A. for the big parade!
+Now if you'll excuse me, I'm off to Main Street, U.S.A. for the big parade!
 
 It's my story now, Trump. Narrate this!
 
@@ -785,50 +767,14 @@ A stiff kick straight at Little Donald. You double over as the door slams shut..
 ===6DonaldBetrayed===
 #PlayMusic_6DonaldBetrayed
 
-	*"Uh, hello?"
-	*"Anyone there?"
 
-- "I might be in trouble..."
-
-Donald.
 	*"Help!"
-
 	*"Is anyone there?"
 - Donald -- can you hear me?"
 
-"It's just me," you say. "Okay, gotta get out of this chair!"
+- "...Did I make a wrong decision?"
 
-	*[Flex muscles to break rope]
-"In my mind, I broke free like that big green guy."
-
-	*[Struggle against rope]
-"You know, like in that action movie. I stand up, and the rope, it unravels."
-
-- "Getting a little concerned here..."
-
-"...Did I make a wrong decision?"
-
-	* "Impossible."
-"I'm Donald J. Trump. I don't make wrong decisions."
-
-"I make decisions, and they are right because I made them."
-
-	*"Not possible."
-"No -- not even unlikely. Impossible."
-
-- "I choose my own reality."
-
-	*"What do I do? Come on, me!"
-	*"Trump. You got this."
-- "Think of a way out."
-
-	*[Proclaim heroism]
-"Come on. I know how to defeat ISIS, so that must mean I already know how to escape."
-
-	*[Think of a way out]
-"I've just gotta keep thinking," you say to yourself. "My brain, it's the best. I consult it on foreign policy, so it's only a matter of time."
-
-- "Come on, brain. Think of a way out. I've gotta stop Narrator Guy, no -- Terrorist Guy -- from blowing up Disney World."
+"Come on, brain. Think of a way out. I've gotta stop Narrator Guy, no -- Terrorist Guy -- from blowing up Disney World. Think of a way out!"
 
 - You already have, Donald.
 
@@ -919,7 +865,7 @@ You stand. Confident. Virile. Fearless.
 "Open for me, door," you say. "Now!"
 
 The door obeys and opens for you.
-	*[Roundhouse Kick the Door]
+	*[Kick the Door down]
 BOOM. Just like Van Damme.
 "Take THAT, door!"
 The door flies off its hinges.
@@ -928,18 +874,14 @@ The door flies off its hinges.
 
 And you stroll triumphantly out of the room.
 
+That's the spirit, Donald -- but beware. If you have the power to bend reality, so too does Terrorist Guy. He is powerful, Donald, and growing more powerful by the minute.
+
+But I believe in you, Donald.
+
 *"I've got a world to save!"
 *"I'm coming for you, Terrorist Guy."
-
-- That's the spirit, Donald -- but beware. If you have the power to bend reality, so too does Terrorist Guy. He is powerful, Donald, and growing more powerful by the minute.
-
-But I believe in you, Donald. I believe in you.
-
-"I'm ready," you say. "Let's do this!"
-
-    *[Go to the Parade]
     
-->7showdown
+- ->7showdown
 
 ===7showdown===
 #PlayMusic_7showdown
@@ -953,19 +895,7 @@ Your hair: golden.
 Your purpose: singular. 
 Stop ISIS and save the mother $**$**&* world.
 
-Finally you reach the door to Main Street U.S.A.
-
-	*[Save the World]
-"Let's do this. It's Trump Time™! And that’s trademarked, by the way. If anyone else tries to use Trump Time™ I will sue you into oblivion, okay? Okay. Where was I? Right: It’s Trump Time™!"
-
-	*[Proclaim Heroism]
-"I, Donald Trump, do solemnly swear that when I find you, Terrorist Guy, I am going to kick your Terrorist ass. Because I am great. I’ve got so much of this stuff that I’m donating some to the country. In summary, the Donald oozes greatness."
-
-- Let's do this, Donald. Let's do this!
-
-    *[Continue]
-
-
+    *[Head to the Parade]
 
 ->7showdownA
 
@@ -1052,7 +982,6 @@ Terrorist Guy grins. "@realDonaldTrump is a charlatan, a toupee-wearing orange D
    	    *  [Leftist hook]     -> 7Fisticuffs
     	*  [Super Ego Upper-Cut] -> 7Fisticuffs
     	*  [Double -- no -- Triple Punch]    -> 7Fisticuffs
-    	*  [Trump $2.99 Grand Slam!]     -> 7Fisticuffs
     	*  [] . -> 7Terrorist_Guy_Attacks
 
 
@@ -1061,11 +990,9 @@ Terrorist Guy attacks you with lightning-like fury. You fall to the ground, pant
 
 "I HAVE BECOME ALL POWERFUL!" he screams. "Now it's time to finish the job! Hey everybody, what's Donald Trump's favorite chapter of any book? Chapter 11!"
 
-He conjures up a legion of bankruptcy lawyers who march towards you in unison, branding their identical briefcases, their intense green eyes staring through your suit, and into your very soul.
+Terrorist Guy conjures up a legion of bankruptcy lawyers who march towards you in unison, branding their identical briefcases, their intense green eyes staring through your suit, and into your very soul.
 
-On no, Donald. Not again! Remember the casinos. Our Taj Mahal, The Castle, The Plaza, the -- well, most of our businesses! Think fast! 
-
-Use your words to bend reality and defend yourself, Donald!
+On no, Donald. Not again! Remember the casinos. Our Taj Mahal, The Castle, The Plaza, the -- well, most of our businesses! Think fast! Use your words to bend reality and defend yourself, Donald!
 
 	*[Deny Lawsuit]
 "Uh, I reject this lawsuit on the grounds of…"
@@ -1152,10 +1079,10 @@ You devour the last of the steak, gristle and all. You flex your arms and your m
 ===7Climax===
 {&|Take this ISIS jerk out, Donald!|You got this, Donald!|This is your big climax -- make it bigger!| Defeat this terrorist and we'll hold you a huge parade!|Show the world your secret plan to stop ISIS!|}
 
-	+ {insult <=3 } [Hurl ISIS Insult]
+	+ {insult <=2 } [Hurl ISIS Insult]
 ->7Isis_insult
 
-	+ {summon <=3 } [Summon American]
+	+ {summon <=2 } [Summon American]
 ->7SummonAmerican
 
     * {climax_fight >=2 } [Super Duper Declare Brilliance]->Super_Duper_Proclaim_Brilliance 
