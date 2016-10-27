@@ -204,7 +204,7 @@ You mean anonymity, sir?
 Unfortunately, Mr. Trump -- those bums in Congress slashed our cover mascot budget, so we only have two mascots to choose from. You can either be Minnie Mouse or Goofy.
 
 	*["Minnie Mouse."] 
-		"Minnie Mouse. Definitely. Everybody's saying I look good in pink. Everybody."
+		"Minnie Mouse. Definitely. Everybody's saying I look good in red. Everybody."
 
 Absolutely, sir! 
     ~chose_minnie = true
